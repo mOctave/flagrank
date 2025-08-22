@@ -1,6 +1,5 @@
 const express = require("express");
 const fs = require("fs");
-const iso3166 = require("iso-3166-2");
 
 let flags = {};
 const MATCHES = {};
