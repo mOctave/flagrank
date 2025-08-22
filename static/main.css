@@ -42,7 +42,7 @@ p {
 }
 
 .flag {
-	max-width: calc( 100% - 20px );
+	width: calc( 100% - 20px );
 	max-height: calc( 100% - 150px );
 	display: block;
 	margin-top: 10px;

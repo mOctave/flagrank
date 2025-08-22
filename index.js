@@ -262,7 +262,30 @@ function displayLeaderboard(req, res) {
 		`;
 	}
 
-	res.render("pages/leaders", {ratings: ratingLeaders, winrate: winrateLeaders, wins: winLeaders});
+	// Total Losses
+	array.sort((a, b) => b.losses - a.losses);
+
+	let lossLeaders = ``;
+	rank = 0;
+	lastScore = Infinity;
+	backloggedRanks = 1;
+
+
+	for (entry of array) {
+		if (entry.losses < lastScore) {
+			rank += backloggedRanks;
+			lastScore = entry.losses;
+			backloggedRanks = 1;
+		} else {
+			backloggedRanks++;
+		}
+
+		lossLeaders += `
+<div class="leaderboard-entry">${rank}<img class="flag-icon" src="${entry.url}"/>${entry.name} ❖ ${entry.losses}&nbsp;losses</div>
+		`;
+	}
+
+	res.render("pages/leaders", {ratings: ratingLeaders, winrate: winrateLeaders, wins: winLeaders, losses: lossLeaders});
 }
 
 function saveData() {

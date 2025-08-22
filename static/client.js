@@ -1,3 +1,9 @@
+document.addEventListener("keypress", (e) => {
+	if (e.key === "n" || e.key === "N" || e.key === " ") {
+		location.reload();
+	}
+});
+
 document.getElementById("option-a").addEventListener("click", async() => {
 	console.log("Selected Option A!");
 	const res = await fetch("/response", {
