@@ -62,11 +62,14 @@ p {
 
 #progressbar {
 	position: fixed;
-	left: 0;
+	left: -4px;
 	top: 0;
-	height: 10px;
+	height: 2px;
 	width: 0%;
+	padding: 2px;
 	background-color: #37e;
+	border-radius: 2px;
+	transition: linear 5s;
 }
 
 #newbutton, #leaderlink, #mainlink {
@@ -119,6 +122,9 @@ p {
 	.flag {
 		max-width: initial;
 		max-height: calc( 100% - 150px );
+	}
+	.header h1 {
+		margin-bottom: 6px;
 	}
 }
 
