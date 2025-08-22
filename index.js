@@ -183,7 +183,7 @@ function init() {
 				name += ` (${data[data[code].parent].name})`;
 			}
 
-			initFlag(code, name, flagdir + code + ".svg");
+			initFlag(code, name, flagdir + code.toLowerCase() + ".svg");
 		} catch (err) {
 			console.error(err.message);
 			console.trace();
