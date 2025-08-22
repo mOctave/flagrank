@@ -170,13 +170,14 @@ function respondToChoice(req, res) {
 
 function init() {
 	const data = JSON.parse(fs.readFileSync("./flags.json"));
-	const category = config.category ? config.category : "Flags of the World";
+	const category = config.category ? config.category : "";
 	const flagdir = config.flagdir ? config.flagdir : "img/flag/";
 	const noteparent = config.noteparent ? config.noteparent : true;
 
 	for (let code in data) {
 		try {
-			if (data[code].flagsets.indexOf(category) === -1) continue;
+			if (data[code].disabled) continue;
+			if (category && data[code].flagsets.indexOf(category) === -1) continue;
 
 			let name = data[code].name;
 			if (noteparent && data[code].parent) {
