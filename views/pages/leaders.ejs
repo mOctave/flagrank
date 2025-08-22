@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<%- include("../partials/head"); %>
+	</head>
+	<body>
+		<div class="leader-header">
+			<h1>Flagrank Leaderboards</h1>
+		</div>
+		<div class="leaderboard-container">
+			<div class="leaderboard">
+				<h2>Highest Rating</h2>
+				<div class="leaderboard-content"><%- ratings %></div>
+			</div>
+			<div class="leaderboard">
+				<h2>Highest Winrate</h2>
+				<div class="leaderboard-content"><%- winrate %></div>
+			</div>
+			<div class="leaderboard">
+				<h2>Most Wins</h2>
+				<div class="leaderboard-content"><%- wins %></div>
+			</div>
+		</div>
+		<a id="mainlink" href="./">Choose Flags</a>
+	</body>
+</html>

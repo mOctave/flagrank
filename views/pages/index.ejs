@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<%- include("../partials/head"); %>
+	</head>
+	<body>
+		<div class="header">
+			<h1>Flagrank</h1>
+			<p>Which flag do you prefer?</p>
+		</div>
+		<div class="option-container">
+			<div id="option-a" class="option">
+				<img class="flag" src="<%= a.url %>" alt="The flag of <%= a.name %>"/>
+				<div class="details">
+					<p><%= a.name %></p>
+					<div class="divider"><%- include("../partials/divider"); %></div>
+					<p><%= Math.round(a.rating) %><span id="ratingchange-a"></span></p>
+					<div class="divider"><%- include("../partials/divider"); %></div>
+					<p><%= a.wins %><span id="winchange-a"></span><span class="explainer"> wins</span> / <%= a.losses %><span id="losschange-a"></span><span class="explainer"> losses</span> / <%= a.draws %><span id="drawchange-a"></span><span class="explainer"> draws</span></p>
+				</div>
+			</div>
+			<div id="option-b" class="option">
+				<img class="flag" src="<%= b.url %>" alt="The flag of <%= b.name %>"/>
+				<div class="details">
+					<p><%= b.name %></p>
+					<div class="divider"><%- include("../partials/divider"); %></div>
+					<p><%= Math.round(b.rating) %><span id="ratingchange-b"></span></p>
+					<div class="divider"><%- include("../partials/divider"); %></div>
+					<p><%= b.wins %><span id="winchange-b"></span><span class="explainer"> wins</span> / <%= b.losses %><span id="losschange-b"></span><span class="explainer"> losses</span> / <%= b.draws %><span id="drawchange-b"></span><span class="explainer"> draws</span></p>
+				</div>
+			</div>
+		</div>
+		<div id="progressbar"></div>
+		<button id="newbutton" onclick="location.reload();">New Match</button>
+		<a id="leaderlink" href="leaders">Leaderboard</a>
+		<script>
+			// Constants
+			const MATCH_ID = `<%- id %>`;
+			const FLAG_A = JSON.parse(`<%- JSON.stringify(a) %>`);
+			const FLAG_B = JSON.parse(`<%- JSON.stringify(b) %>`);
+		</script>
+		<script src="client.js"></script>
+	</body>
+</html>

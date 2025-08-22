@@ -1,0 +1,169 @@
+html {
+	background-color: #333;
+	color: #eee;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	height: 100%;
+	flex-direction: column;
+	text-align: center;
+}
+
+p {
+	margin: 10px;
+}
+
+.header {
+	height: 100px;
+}
+
+
+.option-container {
+	margin: 0px;
+	height: calc( 100% - 130px );
+	display: flex;
+}
+
+
+.option {
+	flex-direction: row;
+	padding: 10px;
+	max-width: 50%;
+	max-height: 100%;
+	flex: 50%;
+	cursor: pointer;
+}
+
+.option:hover {
+	background-color: #222;
+}
+
+.flag {
+	max-width: calc( 100% - 20px );
+	max-height: calc( 100% - 150px );
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.details {
+	visibility: hidden;
+}
+
+.divider {
+	display: none;
+}
+
+#progressbar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 10px;
+	width: 0%;
+	background-color: #37e;
+}
+
+#newbutton, #leaderlink, #mainlink {
+	position: fixed;
+	right: 10px;
+	height: 30px;
+	width: 100px;
+	background-color: #555;
+	color: #000;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: small;
+	font-weight: 500;
+	text-decoration: none;
+	align-content: center;
+	cursor: pointer;
+}
+
+#newbutton:hover, #leaderlink:hover, #mainlink:hover {
+	background-color: #444;
+}
+
+#newbutton {
+	top: 10px;
+}
+
+#leaderlink {
+	top: 50px;
+}
+
+#mainlink {
+	top: 10px;
+}
+
+/* Mobile Support */
+@media screen and (min-height: 130vw) {
+	.option-container {
+		display: block;
+	}
+	.option {
+		max-height: 50%;
+		max-width: 100%;
+	}
+	p, .divider {
+		display: inline;
+	}
+	.explainer {
+		display: none;
+	}
+	.flag {
+		max-width: initial;
+		max-height: calc( 100% - 150px );
+	}
+}
+
+/* Leaderboard */
+.leader-header {
+	height: 60px;
+}
+
+.leaderboard-container {
+	margin: 0px;
+	height: calc( 100% - 90px );
+	padding-right: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: scroll;
+}
+
+.leaderboard {
+	background-color: #444;
+	margin: 10px;
+	flex: 1 0 300px;
+	max-height: calc( 100% - 20px );
+}
+
+.leaderboard h2 {
+	height: 30px;
+	margin: 5px;
+}
+
+.leaderboard-content {
+	overflow: scroll;
+	height: calc( 100% - 40px );
+}
+
+.leaderboard-entry {
+	margin: 15px;
+	border-radius: 5px;
+	border-color: #555;
+	text-align: left;
+	padding-left: 65px;
+	text-indent: -65px;
+}
+
+.flag-icon {
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 12px;
+	align-self: center;
+}

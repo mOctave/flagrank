@@ -1,0 +1,19 @@
+{
+  "name": "flagrank",
+  "version": "1.0.0",
+  "description": "A website that allows people to rank flags using an Elo-like system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flag"
+  ],
+  "author": "mOctave",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "iso-3166-2": "^1.0.0"
+  }
+}
