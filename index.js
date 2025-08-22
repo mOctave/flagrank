@@ -15,7 +15,7 @@ app.set("view engine", "ejs");
 app.use(express.static("static"));
 
 if (!loadData())
-	initISOFromDirectory("img/flag/");
+	init();
 
 app.get("/", (req, res) => {
 	displayChoice(req, res);
@@ -49,8 +49,9 @@ process.on("SIGINT", gracefulShutdown);
 
 
 
-function initFlag(name, url) {
-	flags[name] = {
+function initFlag(code, name, url) {
+	flags[code] = {
+		code: code,
 		name: name,
 		url: url,
 		rating: 1500,
@@ -60,24 +61,24 @@ function initFlag(name, url) {
 	};
 }
 
-function totalGames(name) {
-	return flags[name].wins + flags[name].losses + flags[name].draws;
+function totalGames(code) {
+	return flags[code].wins + flags[code].losses + flags[code].draws;
 }
 
-function ratingDeviation(name) {
-	return 500 / (totalGames(name) + 2);
+function ratingDeviation(code) {
+	return 500 / (totalGames(code) + 2);
 }
 
 function getWinrate(obj) {
 	return (obj.wins + obj.draws / 2 + 1) / (obj.wins + obj.draws + obj.losses + 2);
 }
 
-function qScore(name) {
-	return Math.pow(10, flags[name].rating / 500);
+function qScore(code) {
+	return Math.pow(10, flags[code].rating / 500);
 }
 
-function formatRating(name) {
-	return Math.round(flags[name].rating);
+function formatRating(code) {
+	return Math.round(flags[code].rating);
 }
 
 function adjustForVictory(victor, loser) {
@@ -148,13 +149,13 @@ function respondToChoice(req, res) {
 	let outcome = req.get("Outcome");
 	switch (outcome) {
 		case "A":
-			adjustForVictory(MATCHES[id].a.name, MATCHES[id].b.name)
+			adjustForVictory(MATCHES[id].a.code, MATCHES[id].b.code)
 			break;
 		case "B":
-			adjustForVictory(MATCHES[id].b.name, MATCHES[id].a.name)
+			adjustForVictory(MATCHES[id].b.code, MATCHES[id].a.code)
 			break;
 		case "D":
-			adjustForDraw(MATCHES[id].a.name, MATCHES[id].b.name)
+			adjustForDraw(MATCHES[id].a.code, MATCHES[id].b.code)
 			break;
 		default:
 			res.status(400);
@@ -167,27 +168,27 @@ function respondToChoice(req, res) {
 	res.send("Successfully updated ratings");
 }
 
-function initISOFromDirectory(dir) {
-	fs.readdir("./static/" + dir, function (err, files) {
-		if (err)
-			console.error("Error loading from directory...");
+function init() {
+	const data = JSON.parse(fs.readFileSync("./flags.json"));
+	const category = config.category ? config.category : "Flags of the World";
+	const flagdir = config.flagdir ? config.flagdir : "img/flag/";
+	const noteparent = config.noteparent ? config.noteparent : true;
 
-		for (let file of files) {
-			const code = file.split(".")[0].toUpperCase();
-			const extension = file.split(".")[1].toLowerCase();
-			if (["svg", "png", "jpg", "jpeg", "gif", "heic"].indexOf(extension) >= 0) {
-				try {
-					initFlag(iso3166.country(code).name, dir + file);
-				} catch {
-					try {
-						initFlag(iso3166.subdivision(code).name, dir + file);
-					} catch {
-						console.error(`Could not initialize country "${code}"`);
-					}
-				}
+	for (let code in data) {
+		try {
+			if (data[code].flagsets.indexOf(category) === -1) continue;
+
+			let name = data[code].name;
+			if (noteparent && data[code].parent) {
+				name += ` (${data[data[code].parent].name})`;
 			}
+
+			initFlag(code, name, flagdir + code + ".svg");
+		} catch (err) {
+			console.error(err.message);
+			console.trace();
 		}
-	})
+	}
 }
 
 function displayLeaderboard(req, res) {

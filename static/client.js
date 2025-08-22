@@ -1,3 +1,5 @@
+let hasChosen = false;
+
 document.addEventListener("keypress", (e) => {
 	if (e.key === "n" || e.key === "N" || e.key === " ") {
 		location.reload();
@@ -5,6 +7,9 @@ document.addEventListener("keypress", (e) => {
 });
 
 document.getElementById("option-a").addEventListener("click", async() => {
+	if (hasChosen) return;
+	hasChosen = true;
+
 	console.log("Selected Option A!");
 	const res = await fetch("/response", {
 		method: "POST",
@@ -31,6 +36,9 @@ document.getElementById("option-a").addEventListener("click", async() => {
 });
 
 document.getElementById("option-b").addEventListener("click", async() => {
+	if (hasChosen) return;
+	hasChosen = true;
+
 	console.log("Selected Option B!");
 	const res = await fetch("/response", {
 		method: "POST",

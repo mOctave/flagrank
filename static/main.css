@@ -35,6 +35,8 @@ p {
 	max-height: 100%;
 	flex: 50%;
 	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
 }
 
 .option:hover {
