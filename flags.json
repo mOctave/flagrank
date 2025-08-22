@@ -1926,7 +1926,7 @@
 	},
 	"TF": {
 		"name": "French Southern Territories",
-		"parent": "TF",
+		"parent": "FR",
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
