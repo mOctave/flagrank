@@ -44,6 +44,7 @@ p {
 .flag {
 	width: calc( 100% - 20px );
 	max-height: calc( 100% - 150px );
+	object-fit: contain;
 	display: block;
 	margin-top: 10px;
 	margin-bottom: 10px;
