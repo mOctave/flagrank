@@ -65,15 +65,8 @@ document.getElementById("option-b").addEventListener("click", async() => {
 
 
 function transitionToNext() {
-	let width = 0;
-
-	const interval = setInterval(() => {
-		width += 0.5;
-		document.getElementById("progressbar").style.width = width + "vw";
-		if (width >= 100) {
-			location.reload();
-		}
-	}, 20);
+	document.getElementById("progressbar").style.width = "100vw";
+	setTimeout(()=>location.reload(), 5000);
 }
 
 
