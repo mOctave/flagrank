@@ -8,7 +8,8 @@ let connections = [];
 
 // MARK: START
 const app = express();
-const PORT = 8080;
+const config = JSON.parse(fs.readFileSync("./data/config.json"));
+const PORT = config.port ? config.port : 8080;
 
 app.set("view engine", "ejs");
 app.use(express.static("static"));
