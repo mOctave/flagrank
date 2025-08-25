@@ -1305,6 +1305,335 @@
 			"Flags of Asia"
 		]
 	},
+	"JP-01": {
+		"name": "Hokkaido",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-02": {
+		"name": "Aomori",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-03": {
+		"name": "Iwate",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-04": {
+		"name": "Miyagi",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-05": {
+		"name": "Akita",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-06": {
+		"name": "Yamagata",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-07": {
+		"name": "Fukushima",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-08": {
+		"name": "Ibaraki",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-09": {
+		"name": "Tochigi",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-10": {
+		"name": "Gunma",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-11": {
+		"name": "Saitama",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-12": {
+		"name": "Chiba",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-13": {
+		"name": "Tokyo",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-14": {
+		"name": "Kanagawa",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-15": {
+		"name": "Niigata",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-16": {
+		"name": "Toyama",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-17": {
+		"name": "Ishikawa",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-18": {
+		"name": "Fukui",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-19": {
+		"name": "Yamanashi",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-20": {
+		"name": "Nagano",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-21": {
+		"name": "Gifu",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-22": {
+		"name": "Shizuoka",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-23": {
+		"name": "Aichi",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-24": {
+		"name": "Mie",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-25": {
+		"name": "Shiga",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-26": {
+		"name": "Kyoto",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-27": {
+		"name": "Osaka",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-28": {
+		"name": "Hyogo",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-29": {
+		"name": "Nara",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-30": {
+		"name": "Wakayama",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-31": {
+		"name": "Tottori",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-32": {
+		"name": "Shimane",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-33": {
+		"name": "Okayama",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-34": {
+		"name": "Hiroshima",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-35": {
+		"name": "Yamaguchi",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-36": {
+		"name": "Tokushima",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-37": {
+		"name": "Kagawa",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-38": {
+		"name": "Ehime",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-39": {
+		"name": "Kochi",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-40": {
+		"name": "Fukuoka",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-41": {
+		"name": "Saga",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-42": {
+		"name": "Nagasaki",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-43": {
+		"name": "Kumamoto",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-44": {
+		"name": "Oita",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-45": {
+		"name": "Miyakazi",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-46": {
+		"name": "Kagoshima",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
+	"JP-47": {
+		"name": "Okinawa",
+		"parent": "JP",
+		"flagsets": [
+			"Japanese Prefecture Flags"
+		]
+	},
 	"KE": {
 		"name": "Kenya",
 		"parent": "",
