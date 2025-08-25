@@ -649,6 +649,118 @@
 			"Flags of Europe"
 		]
 	},
+	"DE-BB": {
+		"name": "Brandenburg",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
+	"DE-BE": {
+		"name": "Berlin",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
+	"DE-BW": {
+		"name": "Baden-Württemberg",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
+	"DE-BY": {
+		"name": "Bavaria",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
+	"DE-HB": {
+		"name": "Bremen",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
+	"DE-HE": {
+		"name": "Hesse",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
+	"DE-HH": {
+		"name": "Hamburg",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
+	"DE-MV": {
+		"name": "Mecklenburg-Western Pomerania",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
+	"DE-NI": {
+		"name": "Lower Saxony",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
+	"DE-NW": {
+		"name": "North Rhine-Westphalia",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
+	"DE-RP": {
+		"name": "Rhineland-Palatinate",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
+	"DE-SH": {
+		"name": "Schleswig-Holstein",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
+	"DE-SL": {
+		"name": "Saarland",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
+	"DE-SN": {
+		"name": "Saxony",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
+	"DE-ST": {
+		"name": "Saxony-Anhalt",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
+	"DE-TH": {
+		"name": "Thuringia",
+		"parent": "DE",
+		"flagsets": [
+			"German State Flags"
+		]
+	},
 	"DJ": {
 		"name": "Djibouti",
 		"parent": "",
