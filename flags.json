@@ -105,6 +105,62 @@
 			"Flags of Oceania"
 		]
 	},
+	"AU-ACT": {
+		"name": "Australian Capital Territory",
+		"parent": "AU",
+		"flagsets": [
+			"Australian State Flags"
+		]
+	},
+	"AU-NSW": {
+		"name": "New South Wales",
+		"parent": "AU",
+		"flagsets": [
+			"Australian State Flags"
+		]
+	},
+	"AU-NT": {
+		"name": "Northern Territory",
+		"parent": "AU",
+		"flagsets": [
+			"Australian State Flags"
+		]
+	},
+	"AU-QLD": {
+		"name": "Queensland",
+		"parent": "AU",
+		"flagsets": [
+			"Australian State Flags"
+		]
+	},
+	"AU-SA": {
+		"name": "South Australia",
+		"parent": "AU",
+		"flagsets": [
+			"Australian State Flags"
+		]
+	},
+	"AU-TAS": {
+		"name": "Tasmania",
+		"parent": "AU",
+		"flagsets": [
+			"Australian State Flags"
+		]
+	},
+	"AU-VIC": {
+		"name": "Victoria",
+		"parent": "AU",
+		"flagsets": [
+			"Australian State Flags"
+		]
+	},
+	"AU-WA": {
+		"name": "Western Australia",
+		"parent": "AU",
+		"flagsets": [
+			"Australian State Flags"
+		]
+	},
 	"AW": {
 		"name": "Aruba",
 		"parent": "NL",
