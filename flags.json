@@ -323,6 +323,195 @@
 			"Flags of South America"
 		]
 	},
+	"BR-AC": {
+		"name": "Acre",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-AL": {
+		"name": "Alagoas",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-AM": {
+		"name": "Amazonas",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-AP": {
+		"name": "Amapá",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-BA": {
+		"name": "Bahia",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-CE": {
+		"name": "Ceará",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-DF": {
+		"name": "Distrito Federal",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-ES": {
+		"name": "Espírito Santo",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-GO": {
+		"name": "Goiás",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-MA": {
+		"name": "Maranhão",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-MG": {
+		"name": "Minas Gerais",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-MS": {
+		"name": "Mato Grosso do Sul",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-MT": {
+		"name": "Mato Grosso",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-PA": {
+		"name": "Pará",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-PB": {
+		"name": "Paraíba",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-PE": {
+		"name": "Pernambuco",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-PI": {
+		"name": "Piauí",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-PR": {
+		"name": "Paraná",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-RJ": {
+		"name": "Rio de Janeiro",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-RN": {
+		"name": "Rio Grande do Norte",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-RO": {
+		"name": "Rondônia",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-RR": {
+		"name": "Roraima",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-RS": {
+		"name": "Rio Grande do Sul",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-SC": {
+		"name": "Santa Catarina",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-SE": {
+		"name": "Sergipe",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-SP": {
+		"name": "São Paulo",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
+	"BR-TO": {
+		"name": "Tocantins",
+		"parent": "BR",
+		"flagsets": [
+			"Brazilian State Flags"
+		]
+	},
 	"BS": {
 		"name": "Bahamas",
 		"parent": "",
