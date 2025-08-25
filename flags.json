@@ -331,6 +331,97 @@
 			"Flags of North America"
 		]
 	},
+	"CA-AB": {
+		"name": "Alberta",
+		"parent": "CA",
+		"flagsets": [
+			"Canadian Provincial Flags"
+		]
+	},
+	"CA-BC": {
+		"name": "British Columbia",
+		"parent": "CA",
+		"flagsets": [
+			"Canadian Provincial Flags"
+		]
+	},
+	"CA-MB": {
+		"name": "Manitoba",
+		"parent": "CA",
+		"flagsets": [
+			"Canadian Provincial Flags"
+		]
+	},
+	"CA-NB": {
+		"name": "New Brunswick",
+		"parent": "CA",
+		"flagsets": [
+			"Canadian Provincial Flags"
+		]
+	},
+	"CA-NL": {
+		"name": "Newfoundland and Labrador",
+		"parent": "CA",
+		"flagsets": [
+			"Canadian Provincial Flags"
+		]
+	},
+	"CA-NS": {
+		"name": "Nova Scotia",
+		"parent": "CA",
+		"flagsets": [
+			"Canadian Provincial Flags"
+		]
+	},
+	"CA-NT": {
+		"name": "Northwest Territories",
+		"parent": "CA",
+		"flagsets": [
+			"Canadian Provincial Flags"
+		]
+	},
+	"CA-NU": {
+		"name": "Nunavut",
+		"parent": "CA",
+		"flagsets": [
+			"Canadian Provincial Flags"
+		]
+	},
+	"CA-ON": {
+		"name": "Ontario",
+		"parent": "CA",
+		"flagsets": [
+			"Canadian Provincial Flags"
+		]
+	},
+	"CA-PE": {
+		"name": "Prince Edward Island",
+		"parent": "CA",
+		"flagsets": [
+			"Canadian Provincial Flags"
+		]
+	},
+	"CA-QC": {
+		"name": "Quebec",
+		"parent": "CA",
+		"flagsets": [
+			"Canadian Provincial Flags"
+		]
+	},
+	"CA-SK": {
+		"name": "Saskatchewan",
+		"parent": "CA",
+		"flagsets": [
+			"Canadian Provincial Flags"
+		]
+	},
+	"CA-YT": {
+		"name": "Yukon",
+		"parent": "CA",
+		"flagsets": [
+			"Canadian Provincial Flags"
+		]
+	},
 	"CC": {
 		"name": "Cocos (Keeling) Islands",
 		"parent": "AU",
