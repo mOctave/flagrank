@@ -772,6 +772,38 @@
 			"Flags of Europe"
 		]
 	},
+	"GB-ENG": {
+		"name": "England",
+		"parent": "UK",
+		"flagsets": [
+			"World Flags",
+			"UK Subdivision Flags"
+		]
+	},
+	"GB-NIR": {
+		"name": "Northern Ireland",
+		"parent": "UK",
+		"flagsets": [
+			"World Flags",
+			"UK Subdivision Flags"
+		]
+	},
+	"GB-SCT": {
+		"name": "Scotland",
+		"parent": "UK",
+		"flagsets": [
+			"World Flags",
+			"UK Subdivision Flags"
+		]
+	},
+	"GB-WLS": {
+		"name": "Wales",
+		"parent": "UK",
+		"flagsets": [
+			"World Flags",
+			"UK Subdivision Flags"
+		]
+	},
 	"GD": {
 		"name": "Grenada",
 		"parent": "",

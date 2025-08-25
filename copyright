@@ -14,6 +14,10 @@ License: CC-BY-SA-4.0
 
 Files:
  static/img/flag/*.svg
+ static/img/flag/gb-eng.svg
+ static/img/flag/gb-nir.svg
+ static/img/flag/gb-sct.svg
+ static/img/flag/gb-wls.svg
 Copyright: https://flagpedia.net
 License: public-domain
 Note: Based on vector files from Wikimedia Commons.
