@@ -2177,6 +2177,363 @@
 			"Flags of North America"
 		]
 	},
+	"US-AK": {
+		"name": "Alaska",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-AL": {
+		"name": "Alabama",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-AR": {
+		"name": "Arkansas",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-AZ": {
+		"name": "Arizona",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-CA": {
+		"name": "California",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-CO": {
+		"name": "Colorado",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-CT": {
+		"name": "Connecticut",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-DC": {
+		"name": "District of Columbia",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-DE": {
+		"name": "Delaware",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-FL": {
+		"name": "Florida",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-GA": {
+		"name": "Georgia",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-HI": {
+		"name": "Hawaii",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-IA": {
+		"name": "Iowa",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-ID": {
+		"name": "Idaho",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-IL": {
+		"name": "Illinois",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-IN": {
+		"name": "Indiana",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-KS": {
+		"name": "Kansas",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-KY": {
+		"name": "Kentucky",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-LA": {
+		"name": "Louisiana",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-MA": {
+		"name": "Massachusetts",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-MD": {
+		"name": "Maryland",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-ME": {
+		"name": "Maine",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-MI": {
+		"name": "Michigan",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-MN": {
+		"name": "Minnesota",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-MO": {
+		"name": "Missouri",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-MS": {
+		"name": "Mississippi",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-MT": {
+		"name": "Montana",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-NC": {
+		"name": "North Carolina",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-ND": {
+		"name": "North Dakota",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-NE": {
+		"name": "Nebraska",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-NH": {
+		"name": "New Hampshire",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-NJ": {
+		"name": "New Jersey",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-NM": {
+		"name": "New Mexico",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-NV": {
+		"name": "Nevada",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-NY": {
+		"name": "New York",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-OH": {
+		"name": "Ohio",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-OK": {
+		"name": "Oklahoma",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-OR": {
+		"name": "Oregon",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-PA": {
+		"name": "Pennsylvania",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-RI": {
+		"name": "Rhode Island",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-SC": {
+		"name": "South Carolina",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-SD": {
+		"name": "South Dakota",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-TN": {
+		"name": "Tennessee",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-TX": {
+		"name": "Texas",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-UT": {
+		"name": "Utah",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-VA": {
+		"name": "Virginia",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-VT": {
+		"name": "Vermont",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-WA": {
+		"name": "Washington",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-WI": {
+		"name": "Wisconsin",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-WV": {
+		"name": "West Virginia",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
+	"US-WY": {
+		"name": "Wyoming",
+		"parent": "US",
+		"flagsets": [
+			"US State Flags"
+		]
+	},
 	"UY": {
 		"name": "Uruguay",
 		"parent": "",
