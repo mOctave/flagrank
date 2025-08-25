@@ -922,6 +922,97 @@
 			"Flags of Europe"
 		]
 	},
+	"FR-20R": {
+		"name": "Corsica",
+		"parent": "FR",
+		"flagsets": [
+			"French Regional Flags"
+		]
+	},
+	"FR-ARA": {
+		"name": "Auvergne-Rhône-Alpes",
+		"parent": "FR",
+		"flagsets": [
+			"French Regional Flags"
+		]
+	},
+	"FR-BFC": {
+		"name": "Bourgogne-Franche-Comté",
+		"parent": "FR",
+		"flagsets": [
+			"French Regional Flags"
+		]
+	},
+	"FR-BRE": {
+		"name": "Bretagne",
+		"parent": "FR",
+		"flagsets": [
+			"French Regional Flags"
+		]
+	},
+	"FR-CVL": {
+		"name": "Centre-Val de Loire",
+		"parent": "FR",
+		"flagsets": [
+			"French Regional Flags"
+		]
+	},
+	"FR-GES": {
+		"name": "Grand Est",
+		"parent": "FR",
+		"flagsets": [
+			"French Regional Flags"
+		]
+	},
+	"FR-HDF": {
+		"name": "Hauts-de-France",
+		"parent": "FR",
+		"flagsets": [
+			"French Regional Flags"
+		]
+	},
+	"FR-IDF": {
+		"name": "Île-de-France",
+		"parent": "FR",
+		"flagsets": [
+			"French Regional Flags"
+		]
+	},
+	"FR-NAQ": {
+		"name": "Nouvelle-Aquitaine",
+		"parent": "FR",
+		"flagsets": [
+			"French Regional Flags"
+		]
+	},
+	"FR-NOR": {
+		"name": "Normandie",
+		"parent": "FR",
+		"flagsets": [
+			"French Regional Flags"
+		]
+	},
+	"FR-OCC": {
+		"name": "Occitanie",
+		"parent": "FR",
+		"flagsets": [
+			"French Regional Flags"
+		]
+	},
+	"FR-PAC": {
+		"name": "Provence-Alpes-Côte-d'Azur",
+		"parent": "FR",
+		"flagsets": [
+			"French Regional Flags"
+		]
+	},
+	"FR-PDL": {
+		"name": "Pays-de-la-Loire",
+		"parent": "FR",
+		"flagsets": [
+			"French Regional Flags"
+		]
+	},
 	"GA": {
 		"name": "Gabon",
 		"parent": "",
@@ -995,7 +1086,7 @@
 		"parent": "FR",
 		"flagsets": [
 			"World Flags",
-			"French Department Flags",
+			"French Departmental Flags",
 			"Flags of South America"
 		]
 	},
