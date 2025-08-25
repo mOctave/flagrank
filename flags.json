@@ -712,6 +712,188 @@
 			"Flags of Europe"
 		]
 	},
+	"CH-AG": {
+		"name": "Aargau",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-AI": {
+		"name": "Appenzell Innerrhoden",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-AR": {
+		"name": "Appenzell Ausserrhoden",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-BE": {
+		"name": "Bern",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-BL": {
+		"name": "Basel-Landschaft",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-BS": {
+		"name": "Basel-Stadt",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-FR": {
+		"name": "Fribourg",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-GE": {
+		"name": "Geneva",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-GL": {
+		"name": "Glarus",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-GR": {
+		"name": "Graubünden",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-JU": {
+		"name": "Jura",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-LU": {
+		"name": "Lucerne",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-NE": {
+		"name": "Neuchâtel",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-NW": {
+		"name": "Nidwalden",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-OW": {
+		"name": "Obwalden",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-SG": {
+		"name": "Sankt Gallen",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-SH": {
+		"name": "Schaffhausen",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-SO": {
+		"name": "Solothurn",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-SZ": {
+		"name": "Schwyz",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-TG": {
+		"name": "Thurgau",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-TI": {
+		"name": "Ticino",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-UR": {
+		"name": "Uri",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-VD": {
+		"name": "Vaud",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-VS": {
+		"name": "Valais",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-ZG": {
+		"name": "Zug",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
+	"CH-ZH": {
+		"name": "Zürich",
+		"parent": "CH",
+		"flagsets": [
+			"Swiss Canton Flags"
+		]
+	},
 	"CI": {
 		"name": "Côte d'Ivoire",
 		"parent": "",
