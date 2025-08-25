@@ -185,7 +185,7 @@ function init() {
 
 			initFlag(code, name, flagdir + code.toLowerCase() + ".svg");
 		} catch (err) {
-			console.error(err.message);
+			console.error(`${err.message} (Code: ${code})`);
 			console.trace();
 		}
 	}

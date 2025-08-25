@@ -1033,7 +1033,7 @@
 	},
 	"GB-ENG": {
 		"name": "England",
-		"parent": "UK",
+		"parent": "GB",
 		"flagsets": [
 			"World Flags",
 			"UK Subdivision Flags"
@@ -1041,7 +1041,7 @@
 	},
 	"GB-NIR": {
 		"name": "Northern Ireland",
-		"parent": "UK",
+		"parent": "GB",
 		"flagsets": [
 			"World Flags",
 			"UK Subdivision Flags"
@@ -1049,7 +1049,7 @@
 	},
 	"GB-SCT": {
 		"name": "Scotland",
-		"parent": "UK",
+		"parent": "GB",
 		"flagsets": [
 			"World Flags",
 			"UK Subdivision Flags"
@@ -1057,7 +1057,7 @@
 	},
 	"GB-WLS": {
 		"name": "Wales",
-		"parent": "UK",
+		"parent": "GB",
 		"flagsets": [
 			"World Flags",
 			"UK Subdivision Flags"
