@@ -131,6 +131,10 @@ MARK: Navbar
 	height: 50px;
 }
 
+#navmenu-toggle {
+	cursor: pointer;
+}
+
 #navmenu {
 	display: none;
 	position: fixed;
