@@ -30,6 +30,7 @@ Files:
  static/img/flag/de-*.svg
  static/img/flag/fr-*.svg
  static/img/flag/jp-*.svg
+ static/img/flag/my-*.svg
  static/img/flag/us-*.svg
 Copyright: various
 License: public-domain
@@ -46,6 +47,20 @@ Files:
 Copyright: Superbenjamin
 License: CC-BY-SA-3.0
 Note: Taken from Wikimedia Commons. Possibly adapted from original work by Diades (https://en.wikipedia.org/wiki/File:Flag_of_Provence-Alpes-C%C3%B4te_d%27Azur.svg).
+
+Files:
+ static/img/flag/my-13.svg
+Copyright: Matthew A. Lockhart
+License: CC-BY-SA-3.0
+Note: Taken from Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Flag_of_Sarawak.svg).
+
+Files:
+ static/img/flag/my-03.svg
+ static/img/flag/my-10.svg
+ static/img/flag/my-11.svg
+Copyright: Mysid
+License: CC-BY-SA-3.0
+Note: Taken from Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Flag_of_Kelantan.svg, https://commons.wikimedia.org/wiki/File:Flag_of_Selangor.svg, https://commons.wikimedia.org/wiki/File:Flag_of_Terengganu.svg).
 
 License: AGPL-3+
  This program is free software: you can redistribute it and/or modify it under the

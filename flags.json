@@ -2493,6 +2493,118 @@
 			"Flags of Asia"
 		]
 	},
+	"MY-01": {
+		"name": "Johor",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
+	"MY-02": {
+		"name": "Kedah",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
+	"MY-03": {
+		"name": "Kelantan",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
+	"MY-04": {
+		"name": "Malacca",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
+	"MY-05": {
+		"name": "Negeri Sembilan",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
+	"MY-06": {
+		"name": "Pahang",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
+	"MY-07": {
+		"name": "Penang",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
+	"MY-08": {
+		"name": "Perak",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
+	"MY-09": {
+		"name": "Perlis",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
+	"MY-10": {
+		"name": "Selangor",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
+	"MY-11": {
+		"name": "Terengganu",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
+	"MY-12": {
+		"name": "Sabah",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
+	"MY-13": {
+		"name": "Sarawak",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
+	"MY-14": {
+		"name": "Kuala Lumpur",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
+	"MY-15": {
+		"name": "Labuan",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
+	"MY-16": {
+		"name": "Putrajaya",
+		"parent": "MY",
+		"flagsets": [
+			"Malaysian State Flags"
+		]
+	},
 	"MZ": {
 		"name": "Mozambique",
 		"parent": "",
