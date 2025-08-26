@@ -1,0 +1,56 @@
+<!--
+Flagrank: Flag evaluation website.
+Copyright (C) 2025 mOctave
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<%- include("../partials/head"); %>
+	</head>
+	<body>
+		<%- include("../partials/navbar"); %>
+		<h1>Legal Notices</h1>
+		<p class="left">Flagrank is copyright © 2025 mOctave, licensed under AGPL-3+.</p>
+		<p class="left">This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</p>
+		<p class="left">This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.</p>
+		<p class="left"><a href="https://github.com/mOctave/flagrank/blob/main/LICENSE">-- Click here for a full copy of the AGPL-3+ license --</a></p>
+		<p class="left">Basically, what this means is that you are allowed to use and adapt Flagrank for your personal use as much as you want. However, if you want to publish your own version (or use the code to do something else), you need to provide credit and link back here, and publish your version under the AGPL-3+ license as well.</p>
+		<p class="left">Please keep in mind that, although most of the flags used by Flagrank are in the public domain, there are several flags under varying licenses. These licenses have their own terms, and although all of them are generally permissive, they may require attribution to the original authors if you wish to use them in your own work. For a complete list of such images, as well as copies of the applicable licenses, please see the <a href="https://raw.githubusercontent.com/mOctave/flagrank/refs/heads/main/copyright">copyright file</a>.</p>
+		<div id="flagdisplay">
+			<img src="img/flag/<%- flags[0] %>.svg" alt="#1 Flag: <%- flags[0] %>"/>
+			<img src="img/flag/<%- flags[1] %>.svg" alt="#2 Flag: <%- flags[1] %>"/>
+			<img src="img/flag/<%- flags[2] %>.svg" alt="#3 Flag: <%- flags[2] %>"/>
+			<img src="img/flag/<%- flags[3] %>.svg" alt="#4 Flag: <%- flags[3] %>"/>
+			<img src="img/flag/<%- flags[4] %>.svg" alt="#5 Flag: <%- flags[4] %>"/>
+		</div>
+		<h2>Contributors</h2>
+		<p class="left">This website is primarily the work of me, mOctave. You can contact me by email at moctave31415@gmail.com.</p>
+		<p class="left">The following individuals have contributed to the site on GitHub:</p>
+		<ul>
+			<li><a href="https://github.com/iannl">iannl</a></li>
+		</ul>
+		<p class="left">The following Wikipedia users created and hold copyright over flag files used on this website:</p>
+		<ul>
+			<li><a href="https://en.wikipedia.org/wiki/User:Matthew_A._Lockhart">Matthew A. Lockhart</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/User:Mysid">Mysid</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/User:Superbenjamin">Superbenjamin</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/User:Thom.lanaud">Thom.lanaud</a></li>
+		</ul>
+		<p class="left">Although to the best of my knowledge all other flag images are in the public domain, it is possible that I have missed a copyright notice or two while bulk-downloading hundreds of files. If you find such a case, please contact me and I will fix the error as soon as possible.</p>
+		<script src="navbar.js"></script>
+	</body>
+</html>

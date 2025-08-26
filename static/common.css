@@ -1,0 +1,198 @@
+/*
+Flagrank: Flag evaluation website.
+Copyright (C) 2025 mOctave
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+html {
+	background-color: #333;
+	color: #eee;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+
+a {
+	color: #37e;
+}
+
+a:hover {
+	color: #3af;
+}
+
+ul, .left {
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-indent: 20px;
+}
+
+.narrow {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.greybutton {
+	height: 30px;
+	background-color: #555;
+	color: #000;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: small;
+	font-weight: 500;
+	text-decoration: none;
+	align-content: center;
+	text-align: center;
+	cursor: pointer;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.greybutton:hover {
+	background-color: #444;
+}
+
+.tagline {
+	text-align: left;
+	line-height: 30px;
+	height: 30px;
+}
+
+/*
+MARK: Navbar
+*/
+
+.navbar, .mobile-navbar {
+	margin: 0;
+	padding: 0;
+	background-color: #222;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+}
+
+.navbar {
+	display: block;
+}
+
+.mobile-navbar {
+	display: none;
+}
+
+.navright {
+	float: right;
+	height: 100%;
+}
+
+.navitem {
+	float: left;
+	display: block;
+	color: #ddd;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+	height: calc(100% - 20px);
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	align-content: center;
+}
+
+.navitem * {
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+.navitem img {
+	height: 30px;
+}
+
+.navitem:hover {
+	background-color: #111;
+	border-radius: 3px;
+}
+
+.navbar-padding {
+	height: 50px;
+}
+
+#navmenu {
+	display: none;
+	position: fixed;
+	top: 50px;
+	right: 0;
+	bottom: 0;
+	width: 200px;
+	transition: linear 0.3s;
+	overflow: hidden;
+	background-color: #111;
+}
+
+#navmenu .navitem {
+	float: none;
+	text-align: right;
+	height: 30px;
+}
+
+
+/*Mobile Support */
+@media screen and (max-width: 599px) {
+	.navbar {
+		display: none;
+	}
+	.mobile-navbar {
+		display: block;
+	}
+}
+
+/*
+MARK: Minor Page-Specific
+*/
+.playbutton {
+	color: #37e;
+	background-color: #bbb;
+	border: 2px solid #888;
+	border-radius: 20px;
+	padding: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-decoration: none;
+}
+
+.playbutton:hover {
+	background-color: #999;
+	color: #15c;
+}
+
+#flagdisplay {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+	flex-wrap: wrap;
+	max-width: 80%;
+	height: 80px;
+	gap: 20px;
+	overflow: hidden;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#flagdisplay img {
+	max-height: 80px;
+}

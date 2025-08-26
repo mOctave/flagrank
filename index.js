@@ -1,3 +1,21 @@
+/*
+Flagrank: Flag evaluation website.
+Copyright (C) 2025 mOctave
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
 const express = require("express");
 const fs = require("fs");
 
@@ -16,7 +34,16 @@ app.use(express.static("static"));
 if (!loadData())
 	init();
 
+
 app.get("/", (req, res) => {
+	displayPage("pages/index", req, res);
+});
+
+app.get("/legal", (req, res) => {
+	displayPage("pages/legal", req, res);
+});
+
+app.get("/match", (req, res) => {
 	displayChoice(req, res);
 });
 
@@ -114,6 +141,23 @@ function adjustForDraw(a, b) {
 	console.log("---");
 }
 
+function displayPage(page, req, res) {
+	let array = Object.values(flags);
+	// Sort by rating with some random variance to break ties and add variety.
+	array.sort((a, b) => b.rating - a.rating + (Math.random() - 0.5) * 100);
+
+	let top_flags = [];
+	for (let i = 0; i < 40; i++) {
+		top_flags.push(array[i].code);
+	}
+
+	const DATA = {
+		flags: top_flags
+	}
+
+	res.render(page, DATA);
+}
+
 function displayChoice(req, res) {
 	let keys = Object.keys(flags);
 	let first = keys[keys.length * Math.random() << 0];
@@ -130,7 +174,7 @@ function displayChoice(req, res) {
 		id: matchID
 	}
 
-	res.render("pages/index", MATCHES[matchID]);
+	res.render("pages/match", MATCHES[matchID]);
 }
 
 function getMatchID() {

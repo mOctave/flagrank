@@ -1,12 +1,31 @@
+<!--
+Flagrank: Flag evaluation website.
+Copyright (C) 2025 mOctave
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<%- include("../partials/head"); %>
+		<link rel="stylesheet" href="leaderboard.css"/>
 	</head>
 	<body>
-		<div class="leader-header">
-			<h1>Flagrank Leaderboards</h1>
-		</div>
+		<%- include("../partials/navbar"); %>
+		<h1>Flagrank Leaderboards</h1>
+		<p>Want to see how the different flags stack up? These leaderboards have all the data you could possibly want.</p>
 		<div class="leaderboard-container">
 			<div class="leaderboard">
 				<h2>Highest Rating</h2>
@@ -24,7 +43,10 @@
 				<h2>Most Losses</h2>
 				<div class="leaderboard-content"><%- losses %></div>
 			</div>
+			<div class="dummy-leaderboard"></div>
+			<div class="dummy-leaderboard"></div>
+			<div class="dummy-leaderboard"></div>
 		</div>
-		<a id="mainlink" href="./">Choose Flags</a>
+		<script src="navbar.js"></script>
 	</body>
 </html>

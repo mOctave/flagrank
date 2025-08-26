@@ -1,0 +1,68 @@
+/*
+Flagrank: Flag evaluation website.
+Copyright (C) 2025 mOctave
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+/*
+MARK: Leaderboard
+*/
+.leaderboard-container {
+	margin: 0px;
+	height: calc( 100% - 90px );
+	padding-right: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: scroll;
+}
+
+.leaderboard {
+	background-color: #444;
+	margin: 10px;
+	flex: 1 0 300px;
+	max-height: 600px;
+}
+
+.dummy-leaderboard {
+	margin: 10px;
+	flex: 1 0 300px;
+	max-height: 600px;
+}
+
+.leaderboard h2 {
+	height: 30px;
+	margin: 5px;
+}
+
+.leaderboard-content {
+	overflow: scroll;
+	height: calc( 100% - 40px );
+}
+
+.leaderboard-entry {
+	margin: 15px;
+	border-radius: 5px;
+	border-color: #555;
+	text-align: left;
+	padding-left: 65px;
+	text-indent: -65px;
+}
+
+.flag-icon {
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 12px;
+	align-self: center;
+}

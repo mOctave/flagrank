@@ -1,0 +1,116 @@
+/*
+Flagrank: Flag evaluation website.
+Copyright (C) 2025 mOctave
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+html {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	height: 100%;
+	flex-direction: column;
+}
+
+p {
+	margin: 10px;
+}
+
+.header {
+	height: 60px;
+}
+
+.option-container {
+	margin: 0px;
+	height: calc( 100% - 135px );
+	display: flex;
+}
+
+
+.option {
+	flex-direction: row;
+	padding: 10px;
+	max-width: 50%;
+	max-height: 100%;
+	flex: 50%;
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.option:hover {
+	background-color: #222;
+}
+
+.flag {
+	width: calc( 100% - 20px );
+	max-height: calc( 100% - 150px );
+	object-fit: contain;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.details {
+	visibility: hidden;
+}
+
+.divider {
+	display: none;
+}
+
+#progressbar {
+	position: fixed;
+	left: -4px;
+	top: 50px;
+	height: 6px;
+	width: 0%;
+	padding: 2px;
+	background-color: #37e;
+	border-radius: 2px;
+	transition: linear 5s;
+}
+
+.header .greybutton {
+	float: right;
+}
+
+/* Mobile Support */
+@media screen and (min-height: 130vw) {
+	.option-container {
+		display: block;
+	}
+	.option {
+		height: calc( 50% - 20px );
+		max-width: 100%;
+	}
+	p, .divider {
+		display: inline;
+	}
+	.explainer {
+		display: none;
+	}
+	.flag {
+		width: calc( 100% - 20px );
+		max-height: calc( 100% - 80px );
+	}
+	h1 {
+		margin-bottom: 6px;
+	}
+}

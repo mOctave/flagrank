@@ -1,3 +1,21 @@
+/*
+Flagrank: Flag evaluation website.
+Copyright (C) 2025 mOctave
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
 let hasChosen = false;
 
 document.addEventListener("keypress", (e) => {
@@ -6,7 +24,12 @@ document.addEventListener("keypress", (e) => {
 	}
 });
 
-document.getElementById("option-a").addEventListener("click", async() => {
+document.getElementById("option-a").addEventListener("click", chooseA);
+
+document.getElementById("option-b").addEventListener("click", chooseB);
+
+
+async function chooseA() {
 	if (hasChosen) return;
 	hasChosen = true;
 
@@ -33,9 +56,10 @@ document.getElementById("option-a").addEventListener("click", async() => {
 	}
 
 	transitionToNext();
-});
+}
 
-document.getElementById("option-b").addEventListener("click", async() => {
+
+async function chooseB() {
 	if (hasChosen) return;
 	hasChosen = true;
 
@@ -60,8 +84,48 @@ document.getElementById("option-b").addEventListener("click", async() => {
 	for (elem of document.getElementsByClassName("details")) {
 		elem.style.visibility = "visible";
 	}
+
 	transitionToNext();
-});
+}
+
+
+async function chooseDraw() {
+	if (hasChosen) return;
+	hasChosen = true;
+
+	console.log("It's a draw!");
+	const res = await fetch("/response", {
+		method: "POST",
+		headers: {
+			"Match-ID": MATCH_ID,
+			"Outcome": "D"
+		}
+	});
+
+	const ratingChanges = adjustForDraw(FLAG_A, FLAG_B);
+	document.getElementById("drawchange-a").innerHTML = " +1";
+	document.getElementById("drawchange-a").style.color = "#bbb";
+	document.getElementById("drawchange-b").innerHTML = " +1";
+	document.getElementById("drawchange-b").style.color = "#bbb";
+
+	document.getElementById("ratingchange-b").innerHTML = ratingChanges.a;
+	document.getElementById("ratingchange-a").innerHTML = ratingChanges.b;
+	if (ratingChanges.a > 0) {
+		document.getElementById("ratingchange-a").style.color = "#3d3";
+		document.getElementById("ratingchange-b").style.color = "#c22";
+	} else if (ratingChanges.a < 0) {
+		document.getElementById("ratingchange-a").style.color = "#c22";
+		document.getElementById("ratingchange-b").style.color = "#3d3";
+	} else {
+		document.getElementById("ratingchange-a").style.color = "#bbb";
+		document.getElementById("ratingchange-b").style.color = "#bbb";
+	}
+	for (elem of document.getElementsByClassName("details")) {
+		elem.style.visibility = "visible";
+	}
+	
+	transitionToNext();
+}
 
 
 function transitionToNext() {
