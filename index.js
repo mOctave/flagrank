@@ -148,7 +148,7 @@ function displayPage(page, req, res) {
 
 	let top_flags = [];
 	for (let i = 0; i < 40; i++) {
-		top_flags.push(array[i].code);
+		top_flags.push(array[i].code.toLowerCase());
 	}
 
 	const DATA = {
