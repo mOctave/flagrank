@@ -111,18 +111,18 @@ async function chooseDraw() {
 	if (ratingChanges.a > 0) {
 		document.getElementById("ratingchange-a").style.color = "#3d3";
 		document.getElementById("ratingchange-b").style.color = "#c22";
-		document.getElementById("ratingchange-a").innerHTML = `+${ratingChanges.a}`;
-		document.getElementById("ratingchange-b").innerHTML = `${ratingChanges.b}`;
+		document.getElementById("ratingchange-a").innerHTML = ` +${ratingChanges.a}`;
+		document.getElementById("ratingchange-b").innerHTML = ` ${ratingChanges.b}`;
 	} else if (ratingChanges.a < 0) {
 		document.getElementById("ratingchange-a").style.color = "#c22";
 		document.getElementById("ratingchange-b").style.color = "#3d3";
-		document.getElementById("ratingchange-a").innerHTML = `${ratingChanges.a}`;
-		document.getElementById("ratingchange-b").innerHTML = `+${ratingChanges.b}`;
+		document.getElementById("ratingchange-a").innerHTML = ` ${ratingChanges.a}`;
+		document.getElementById("ratingchange-b").innerHTML = ` +${ratingChanges.b}`;
 	} else {
 		document.getElementById("ratingchange-a").style.color = "#bbb";
 		document.getElementById("ratingchange-b").style.color = "#bbb";
-		document.getElementById("ratingchange-a").innerHTML = `±0`;
-		document.getElementById("ratingchange-b").innerHTML = `±0`;
+		document.getElementById("ratingchange-a").innerHTML = ` ±0`;
+		document.getElementById("ratingchange-b").innerHTML = ` ±0`;
 	}
 	for (elem of document.getElementsByClassName("details")) {
 		elem.style.visibility = "visible";
