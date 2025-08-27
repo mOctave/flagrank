@@ -108,17 +108,21 @@ async function chooseDraw() {
 	document.getElementById("drawchange-b").innerHTML = " +1";
 	document.getElementById("drawchange-b").style.color = "#bbb";
 
-	document.getElementById("ratingchange-b").innerHTML = ratingChanges.a;
-	document.getElementById("ratingchange-a").innerHTML = ratingChanges.b;
 	if (ratingChanges.a > 0) {
 		document.getElementById("ratingchange-a").style.color = "#3d3";
 		document.getElementById("ratingchange-b").style.color = "#c22";
+		document.getElementById("ratingchange-a").innerHTML = `+${ratingChanges.a}`;
+		document.getElementById("ratingchange-b").innerHTML = `${ratingChanges.b}`;
 	} else if (ratingChanges.a < 0) {
 		document.getElementById("ratingchange-a").style.color = "#c22";
 		document.getElementById("ratingchange-b").style.color = "#3d3";
+		document.getElementById("ratingchange-a").innerHTML = `${ratingChanges.a}`;
+		document.getElementById("ratingchange-b").innerHTML = `+${ratingChanges.b}`;
 	} else {
 		document.getElementById("ratingchange-a").style.color = "#bbb";
 		document.getElementById("ratingchange-b").style.color = "#bbb";
+		document.getElementById("ratingchange-a").innerHTML = `±0`;
+		document.getElementById("ratingchange-b").innerHTML = `±0`;
 	}
 	for (elem of document.getElementsByClassName("details")) {
 		elem.style.visibility = "visible";
@@ -169,7 +173,7 @@ function adjustForDraw() {
 	let bChange = bDifference * ratingDeviation(FLAG_B) / Math.max(Math.min(ratingDeviation(FLAG_A) / 50, 2), 1);
 
 	return {
-		a: ` +${Math.round(aChange)}`,
-		b: ` ${Math.round(bChange)}`,
+		a: Math.round(aChange),
+		b: Math.round(bChange),
 	};
 }

@@ -128,11 +128,11 @@ function adjustForDraw(a, b) {
 	console.log("---");
 	let aDifference = 0.5 - qScore(a) / (qScore(a) + qScore(b));
 	let aChange = aDifference * ratingDeviation(a) / Math.max(Math.min(ratingDeviation(b) / 50, 2), 1);
-	console.log(`${a} was rated at ${formatRating(a)}, earned ${aDifference} more points than expected, changing rating by ${Math.round(aChange)}.`);
+	console.log(`${a} was rated at ${formatRating(a)}, had a point difference of ${aDifference}, changing rating by ${Math.round(aChange)}.`);
 
 	let bDifference = 0.5 - qScore(b) / (qScore(a) + qScore(b));
 	let bChange = bDifference * ratingDeviation(b) / Math.max(Math.min(ratingDeviation(a) / 50, 2), 1);
-	console.log(`${b} was rated at ${formatRating(b)}, earned ${-bDifference} more points than expected, changing rating by ${Math.round(bChange)}.`);
+	console.log(`${b} was rated at ${formatRating(b)}, had a point difference of ${bDifference} changing rating by ${Math.round(bChange)}.`);
 
 	flags[a].draws++;
 	flags[b].draws++;
