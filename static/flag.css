@@ -1,0 +1,52 @@
+/*
+Flagrank: Flag evaluation website.
+Copyright (C) 2025 mOctave
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+.titlecard {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	border-radius: 10px;
+	background-color: #444;
+}
+
+.titlecard-icon {
+	padding: 20px;
+	min-width: none;
+	align-content: center;
+}
+
+.titlecard-icon img {
+	max-width: 300px;
+	float: left;
+}
+
+.titlecard-content {
+	text-align: left;
+	padding: 20px;
+}
+
+/*Mobile Support */
+@media screen and (max-width: 599px) {
+	.titlecard {
+		flex-direction: column;
+	}
+
+	.titlecard-icon img {
+		float: none;
+	}
+}

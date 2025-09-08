@@ -18,6 +18,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 const express = require("express");
 const fs = require("fs");
+const erl = require("express-rate-limit");
 
 let flags = {};
 const MATCHES = {};
@@ -28,15 +29,38 @@ const app = express();
 const config = JSON.parse(fs.readFileSync("./data/config.json"));
 const PORT = config.port ? config.port : 8080;
 
+const limiter = erl.rateLimit({
+	windowMs: 30 * 1000,
+	limit: 25,
+	standardHeaders: "draft-8",
+	legacyHeaders: false,
+	ipv6Subnet: 60,
+	handler: (req, res, next, options) => displayPage("errors/429", req, res, false)
+});
+
 app.set("view engine", "ejs");
 app.use(express.static("static"));
+app.use(limiter);
 
 if (!loadData())
 	init();
 
-
 app.get("/", (req, res) => {
 	displayPage("pages/index", req, res);
+});
+
+app.use((req, res, next) => {
+	if (req.path.slice(-1) === '/' && req.path.length > 1) {
+		const query = req.url.slice(req.path.length);
+		const safepath = req.path.slice(0, -1).replace(/\/+/g, '/');
+		res.redirect(301, safepath + query);
+	} else {
+		next();
+	}
+});
+
+app.get("/flag-:code", (req, res) => {
+	displayFlagPage(req, res);
 });
 
 app.get("/legal", (req, res) => {
@@ -55,8 +79,13 @@ app.post("/response", (req, res) => {
 	respondToChoice(req, res);
 });
 
+app.get("/*splat", (req, res) => {
+	res.status(404);
+	displayPage("errors/404", req, res);
+});
+
 const server = app.listen(PORT, () => {
-	console.log(`Express server running at http://localhost:${PORT}`)
+	console.log(`Express server running at http://localhost:${PORT}`);
 });
 
 server.on("connection", connection => {
@@ -141,21 +170,41 @@ function adjustForDraw(a, b) {
 	console.log("---");
 }
 
-function displayPage(page, req, res) {
-	let array = Object.values(flags);
-	// Sort by rating with some random variance to break ties and add variety.
-	array.sort((a, b) => b.rating - a.rating + (Math.random() - 0.5) * 100);
+function displayPage(page, req, res, sort = true) {
+	if (sort) {
+		let array = Object.values(flags);
+		// Sort by rating with some random variance to break ties and add variety.
+		array.sort((a, b) => b.rating - a.rating + (Math.random() - 0.5) * 100);
 
-	let top_flags = [];
-	for (let i = 0; i < 40; i++) {
-		top_flags.push(array[i].code.toLowerCase());
+		let top_flags = [];
+		for (let i = 0; i < 40; i++) {
+			top_flags.push(array[i].code.toLowerCase());
+		}
+
+		const DATA = {
+			flags: top_flags
+		};
+
+		res.render(page, DATA);
+	} else {
+		res.render(page, {});
+	}
+}
+
+function displayFlagPage(req, res) {
+	const code = req.params.code.toUpperCase();
+
+	if (flags[code] === undefined) {
+		res.status(404);
+		displayPage("errors/404", req, res);
+		return;
 	}
 
 	const DATA = {
-		flags: top_flags
-	}
+		flag: flags[code]
+	};
 
-	res.render(page, DATA);
+	res.render("pages/flag", DATA);
 }
 
 function displayChoice(req, res) {
