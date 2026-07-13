@@ -26,10 +26,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 		<%- include("../partials/navbar"); %>
 		<div class="titlecard">
 			<div class="titlecard-icon">
-				<img src="img/flag/<%- flag.code.toLowerCase() %>.svg" alt="Image of the flag of <%- flag.name %>"/>
+				<img src="img/flag/<%- flag.key.toLowerCase() %>.svg" alt="Image of the flag of <%- flag.name %>"/>
 			</div>
 			<div class="titlecard-content">
-				<h1><%- flag.name %></h1>
+				<h1><%- flag.longName %></h1>
 				<p>Rating: <%- Math.round(flag.rating) %></p>
 				<p>Wins: <%- flag.wins %></p>
 				<p>Losses: <%- flag.losses %></p>

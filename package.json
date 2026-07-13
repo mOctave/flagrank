@@ -4,6 +4,7 @@
   "description": "A website that allows people to rank flags using an Elo-like system.",
   "main": "index.js",
   "scripts": {
+    "start": "node server/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,9 +13,11 @@
   "author": "mOctave",
   "license": "AGPL-3.0-or-later",
   "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "express-rate-limit": "^8.1.0"
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.6.2"
   },
   "repository": {
     "type": "git",

@@ -30,32 +30,32 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 		<a href="./match" class="playbutton">Play now!</a>
 		<div style="height: 10px;"></div>
 		<div id="flagdisplay">
-			<img src="img/flag/<%- flags[0] %>.svg" alt="#1 Flag: <%- flags[0] %>"/>
-			<img src="img/flag/<%- flags[1] %>.svg" alt="#2 Flag: <%- flags[1] %>"/>
-			<img src="img/flag/<%- flags[2] %>.svg" alt="#3 Flag: <%- flags[2] %>"/>
-			<img src="img/flag/<%- flags[3] %>.svg" alt="#4 Flag: <%- flags[3] %>"/>
-			<img src="img/flag/<%- flags[4] %>.svg" alt="#5 Flag: <%- flags[4] %>"/>
+			<img src="<%- flags[0].image %>" alt="#1 Flag: <%- flags[0].name %>"/>
+			<img src="<%- flags[1].image %>" alt="#2 Flag: <%- flags[1].name %>"/>
+			<img src="<%- flags[2].image %>" alt="#3 Flag: <%- flags[2].name %>"/>
+			<img src="<%- flags[3].image %>" alt="#4 Flag: <%- flags[3].name %>"/>
+			<img src="<%- flags[4].image %>" alt="#5 Flag: <%- flags[4].name %>"/>
 		</div>
 		<h2>How does it work?</h2>
 		<p class="left">You will be presented with two randomly matched flags. Your task is simple: choose the flag you think is better. Maybe you like the colours better, maybe the design is more unique, maybe you really like the goofy lion on Bermuda's flag, whatever. You can pick whichever one you prefer.</p>
 		<p class="left">After you choose a flag, you'll see a loading bar pop up at the top of the screen, giving you a chance to see more info about the flags you just judged before giving you a new match-up. If you find that the loading bar is going too slow, you can hit the "New Match" button (or N on your keyboard) to instantly generate a new pairing.</p>
 		<p class="left">If you can't decide which flag you prefer, don't worry! You can hit the "Tie" button, and the match will be recorded as a draw.</p>
 		<div id="flagdisplay">
-			<img src="img/flag/<%- flags[5] %>.svg" alt="#6 Flag: <%- flags[5] %>"/>
-			<img src="img/flag/<%- flags[6] %>.svg" alt="#7 Flag: <%- flags[6] %>"/>
-			<img src="img/flag/<%- flags[7] %>.svg" alt="#8 Flag: <%- flags[7] %>"/>
-			<img src="img/flag/<%- flags[8] %>.svg" alt="#9 Flag: <%- flags[8] %>"/>
-			<img src="img/flag/<%- flags[9] %>.svg" alt="#10 Flag: <%- flags[9] %>"/>
+			<img src="<%- flags[5].image %>" alt="#6 Flag: <%- flags[5].name %>"/>
+			<img src="<%- flags[6].image %>" alt="#7 Flag: <%- flags[6].name %>"/>
+			<img src="<%- flags[7].image %>" alt="#8 Flag: <%- flags[7].name %>"/>
+			<img src="<%- flags[8].image %>" alt="#9 Flag: <%- flags[8].name %>"/>
+			<img src="<%- flags[9].image %>" alt="#10 Flag: <%- flags[9].name %>"/>
 		</div>
 		<h2>Rating System</h2>
 		<p class="left">Flagrank uses a slightly modified Elo system to rank flags. Each time a flag participates in a match, it is given an expected score based on how high it is rated compared to its oponent, and this is compared with its actual score (1 for a win, 0 for a loss, 0.5 for a draw), which adjusts its rating. This means that a flag that beats one rated much lower than it will experience only a small change in its rating, whereas if it loses it will suffer a large rating drop. Similarly, flags that have already been ranked many times will be less influenced by matches than flags that have only been ranked once or twice.</p>
 		<p class="left">The average and initial rating given to flags is 1500. A flag with a rating 250 points higher than its opponent is expected to win around 75% of the time, and a flag rated 500 points higher is expected to win about 90% of matches. The very highest-rated flags will gradually rise to the top of the leaderboard and may be selected to appear on this page as well.</p>
 		<div id="flagdisplay">
-			<img src="img/flag/<%- flags[10] %>.svg" alt="#11 Flag: <%- flags[10] %>"/>
-			<img src="img/flag/<%- flags[11] %>.svg" alt="#12 Flag: <%- flags[11] %>"/>
-			<img src="img/flag/<%- flags[12] %>.svg" alt="#13 Flag: <%- flags[12] %>"/>
-			<img src="img/flag/<%- flags[13] %>.svg" alt="#14 Flag: <%- flags[13] %>"/>
-			<img src="img/flag/<%- flags[14] %>.svg" alt="#15 Flag: <%- flags[14] %>"/>
+			<img src="<%- flags[10].image %>" alt="#11 Flag: <%- flags[10].name %>"/>
+			<img src="<%- flags[11].image %>" alt="#12 Flag: <%- flags[11].name %>"/>
+			<img src="<%- flags[12].image %>" alt="#13 Flag: <%- flags[12].name %>"/>
+			<img src="<%- flags[13].image %>" alt="#14 Flag: <%- flags[13].name %>"/>
+			<img src="<%- flags[14].image %>" alt="#15 Flag: <%- flags[14].name %>"/>
 		</div>
 		<h2>Which flags are included?</h2>
 		<p class="left">Currently, more than 450 flags are included in the Flagrank dataset, including:</p>
@@ -68,11 +68,11 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 		</ul>
 		<p class="left">I plan to continue to add flags over time, with an aim of including most national subdivision flags in the game along with a number of organizational ones.</p>
 		<div id="flagdisplay">
-			<img src="img/flag/<%- flags[15] %>.svg" alt="#16 Flag: <%- flags[15] %>"/>
-			<img src="img/flag/<%- flags[16] %>.svg" alt="#17 Flag: <%- flags[16] %>"/>
-			<img src="img/flag/<%- flags[17] %>.svg" alt="#18 Flag: <%- flags[17] %>"/>
-			<img src="img/flag/<%- flags[18] %>.svg" alt="#19 Flag: <%- flags[18] %>"/>
-			<img src="img/flag/<%- flags[19] %>.svg" alt="#20 Flag: <%- flags[19] %>"/>
+			<img src="<%- flags[15].image %>" alt="#16 Flag: <%- flags[15].name %>"/>
+			<img src="<%- flags[16].image %>" alt="#17 Flag: <%- flags[16].name %>"/>
+			<img src="<%- flags[17].image %>" alt="#18 Flag: <%- flags[17].name %>"/>
+			<img src="<%- flags[18].image %>" alt="#19 Flag: <%- flags[18].name %>"/>
+			<img src="<%- flags[19].image %>" alt="#20 Flag: <%- flags[19].name %>"/>
 		</div>
 		<h2>Contributing</h2>
 		<p class="left">I welcome all kinds of contributions to this project, from coding and graphical design improvements to copy editing and the addition of new flags. The best place to go if you're interested in helping is the <a href="https://github.com/mOctave/flagrank">GitHub repository</a>.</p>

@@ -32,9 +32,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 		</div>
 		<div class="option-container">
 			<div id="option-a" class="option">
-				<img class="flag" src="<%= a.url %>" alt="The flag of <%= a.name %>"/>
+				<img class="flag" src="<%= a.image %>" alt="The flag of <%= a.name %>"/>
 				<div class="details">
-					<p><%= a.name %></p>
+					<p><%= a.longName %></p>
 					<hr/>
 					<p><%= Math.round(a.rating) %><span id="ratingchange-a"></span></p>
 					<div class="divider"><%- include("../partials/divider"); %></div>
@@ -42,9 +42,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 				</div>
 			</div>
 			<div id="option-b" class="option">
-				<img class="flag" src="<%= b.url %>" alt="The flag of <%= b.name %>"/>
+				<img class="flag" src="<%= b.image %>" alt="The flag of <%= b.name %>"/>
 				<div class="details">
-					<p><%= b.name %></p>
+					<p><%= b.longName %></p>
 					<hr/>
 					<p><%= Math.round(b.rating) %><span id="ratingchange-b"></span></p>
 					<div class="divider"><%- include("../partials/divider"); %></div>
