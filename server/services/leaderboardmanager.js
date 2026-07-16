@@ -45,8 +45,22 @@ async function update() {
 			backloggedRanks++;
 		}
 
+		let classes = "leaderboard-entry";
+		switch (rank) {
+			case 1:
+				classes += " leaderboard-first";
+				break;
+			case 2:
+				classes += " leaderboard-second";
+				break;
+			case 3:
+				classes += " leaderboard-third";
+				break;
+			default: break;
+		}
+
 		ratingLeaders += `
-<div class="leaderboard-entry">${rank}<img class="flag-icon" src="${entry.image}"/>${entry.name} ❖ ${Math.round(entry.rating)}</div>
+<a class="${classes}" href="/flag-${entry.key}">${rank}<img class="flag-icon" src="${entry.image}"/>${entry.name} ❖ ${Math.round(entry.rating)}</a>
 		`;
 	}
 
@@ -68,8 +82,22 @@ async function update() {
 			backloggedRanks++;
 		}
 
+		let classes = "leaderboard-entry";
+		switch (rank) {
+			case 1:
+				classes += " leaderboard-first";
+				break;
+			case 2:
+				classes += " leaderboard-second";
+				break;
+			case 3:
+				classes += " leaderboard-third";
+				break;
+			default: break;
+		}
+
 		winrateLeaders += `
-<div class="leaderboard-entry">${rank}<img class="flag-icon" src="${entry.image}"/>${entry.name} ❖ ${Math.round(getWinrate(entry) * 1000) / 10}%</div>
+<a class="${classes}" href="/flag-${entry.key}">${rank}<img class="flag-icon" src="${entry.image}"/>${entry.name} ❖ ${Math.round(getWinrate(entry) * 1000) / 10}%</a>
 		`;
 	}
 
@@ -91,8 +119,22 @@ async function update() {
 			backloggedRanks++;
 		}
 
+		let classes = "leaderboard-entry";
+		switch (rank) {
+			case 1:
+				classes += " leaderboard-first";
+				break;
+			case 2:
+				classes += " leaderboard-second";
+				break;
+			case 3:
+				classes += " leaderboard-third";
+				break;
+			default: break;
+		}
+
 		winLeaders += `
-<div class="leaderboard-entry">${rank}<img class="flag-icon" src="${entry.image}"/>${entry.name} ❖ ${entry.wins}&nbsp;wins</div>
+<a class="${classes}" href="/flag-${entry.key}">${rank}<img class="flag-icon" src="${entry.image}"/>${entry.name} ❖ ${entry.wins}&nbsp;wins</a>
 		`;
 	}
 
@@ -114,8 +156,22 @@ async function update() {
 			backloggedRanks++;
 		}
 
+		let classes = "leaderboard-entry";
+		switch (rank) {
+			case 1:
+				classes += " leaderboard-first";
+				break;
+			case 2:
+				classes += " leaderboard-second";
+				break;
+			case 3:
+				classes += " leaderboard-third";
+				break;
+			default: break;
+		}
+
 		lossLeaders += `
-<div class="leaderboard-entry">${rank}<img class="flag-icon" src="${entry.image}"/>${entry.name} ❖ ${entry.losses}&nbsp;losses</div>
+<a class="${classes}" href="/flag-${entry.key}">${rank}<img class="flag-icon" src="${entry.image}"/>${entry.name} ❖ ${entry.losses}&nbsp;losses</a>
 		`;
 	}
 
@@ -137,8 +193,22 @@ async function update() {
 			backloggedRanks++;
 		}
 
+		let classes = "leaderboard-entry";
+		switch (rank) {
+			case 1:
+				classes += " leaderboard-first";
+				break;
+			case 2:
+				classes += " leaderboard-second";
+				break;
+			case 3:
+				classes += " leaderboard-third";
+				break;
+			default: break;
+		}
+
 		drawLeaders += `
-<div class="leaderboard-entry">${rank}<img class="flag-icon" src="${entry.image}"/>${entry.name} ❖ ${entry.draws}&nbsp;draws</div>
+<a class="${classes} href="/flag-${entry.key}">${rank}<img class="flag-icon" src="${entry.image}"/>${entry.name} ❖ ${entry.draws}&nbsp;draws</a>
 		`;
 	}
 

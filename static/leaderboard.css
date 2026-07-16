@@ -58,6 +58,21 @@ MARK: Leaderboard
 	text-align: left;
 	padding-left: 65px;
 	text-indent: -65px;
+	display: block;
+	color: #eee;
+	text-decoration: none;
+}
+
+.leaderboard-first {
+	color: gold;
+}
+
+.leaderboard-second {
+	color: silver;
+}
+
+.leaderboard-third {
+	color: orangered;
 }
 
 .flag-icon {
