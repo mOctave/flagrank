@@ -23,6 +23,7 @@ const connectDB = require("./config/db.js")
 const env = require("./config/env.js")
 const mongoose = require("mongoose");
 const Flag = require("./models/Flag.js");
+const { displayPage } = require("./services/pagedisplay.js");
 
 
 // MARK: START
@@ -30,7 +31,7 @@ const app = express();
 
 const limiter = erl.rateLimit({
 	windowMs: 30 * 1000,
-	limit: 25,
+	limit: 60,
 	standardHeaders: "draft-8",
 	legacyHeaders: false,
 	ipv6Subnet: 60,
