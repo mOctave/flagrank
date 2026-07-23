@@ -184,7 +184,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Nordic Cross"
 		]
 	},
 	"AZ": {
@@ -545,7 +546,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of South America"
+			"Flags of South America",
+			"Nordic Cross"
 		],
 		"disabled": "This overseas territory does not have a unique flag."
 	},
@@ -1158,7 +1160,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Nordic Cross"
 		]
 	},
 	"DM": {
@@ -1256,7 +1259,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Nordic Cross"
 		]
 	},
 	"FJ": {
@@ -1294,7 +1298,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Nordic Cross"
 		]
 	},
 	"FR": {
@@ -2001,7 +2006,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Nordic Cross"
 		]
 	},
 	"IT": {
@@ -3107,7 +3113,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Nordic Cross"
 		]
 	},
 	"NP": {
@@ -3378,7 +3385,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Nordic Cross"
 		]
 	},
 	"SG": {
@@ -3415,7 +3423,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Nordic Cross"
 		],
 		"disabled": "This overseas territory does not have a unique flag."
 	},
