@@ -1652,266 +1652,266 @@
 	},
 	"ID-AC": {
 		"name": "Aceh",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-BA": {
 		"name": "Bali",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-BB": {
 		"name": "Kepulauan Bangka Belitung",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-BE": {
 		"name": "Bengkulu",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-BT": {
 		"name": "Banten",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-GO": {
 		"name": "Gorontalo",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-JA": {
 		"name": "Jambi",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-JB": {
 		"name": "Jawa Barat",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-JI": {
 		"name": "Jawa Timur",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-JK": {
 		"name": "Jakarata Raya",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-JT": {
 		"name": "Jawa Tengah",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-KB": {
 		"name": "Kalimantan Barat",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-KI": {
 		"name": "Kalimantan Timur",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-KR": {
 		"name": "Kepulauan Riau",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-KS": {
 		"name": "Kalimantan Selatan",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-KT": {
 		"name": "Kalimantan Tengah",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-KU": {
 		"name": "Kalimantan Utara",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-LA": {
 		"name": "Lampung",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-MA": {
 		"name": "Maluku",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-MU": {
 		"name": "Maluku Utara",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-NB": {
 		"name": "Nusa Tenggara Barat",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-NT": {
 		"name": "Nusa Tenggara Timur",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-PA": {
 		"name": "Papua",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-PB": {
 		"name": "Papua Barat",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-PD": {
 		"name": "Papua Barat Daya",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-PE": {
 		"name": "Papua Pengunungan",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-PS": {
 		"name": "Papua Selatan",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-PT": {
 		"name": "Papua Tengah",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-RI": {
 		"name": "Riau",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-SA": {
 		"name": "Sulawesi Utara",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-SB": {
 		"name": "Sumatera Barat",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-SG": {
 		"name": "Sulawesi Tenggara",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-SN": {
 		"name": "Sulawesi Selatan",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-SR": {
 		"name": "Sulawesi Barat",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-SS": {
 		"name": "Sumatera Selatan",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-ST": {
 		"name": "Sulawesi Tengah",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-SU": {
 		"name": "Sumatera Utara",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
 	},
 	"ID-YO": {
 		"name": "Yogyakarta",
-		"parent": "Indonesia",
+		"parent": "ID",
 		"flagsets": [
 			"Indonesian Provincial Flags"
 		]
@@ -1999,140 +1999,140 @@
 	},
 	"IT-21": {
 		"name": "Piedmont",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-23": {
 		"name": "Aosta Valley",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-25": {
 		"name": "Lombardy",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-32": {
 		"name": "Trentino-South Tyrol",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-34": {
 		"name": "Veneto",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-36": {
 		"name": "Friuli Venezia Giulia",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-42": {
 		"name": "Liguria",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-45": {
 		"name": "Emilia-Romagna",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-52": {
 		"name": "Tuscany",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-55": {
 		"name": "Umbria",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-57": {
 		"name": "Marche",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-62": {
 		"name": "Lazio",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-65": {
 		"name": "Abruzzo",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-67": {
 		"name": "Molise",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-72": {
 		"name": "Campania",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-75": {
 		"name": "Apulia",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-77": {
 		"name": "Basilicata",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-78": {
 		"name": "Calabria",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-82": {
 		"name": "Sicily",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
 	},
 	"IT-88": {
 		"name": "Sardinia",
-		"parent": "Italy",
+		"parent": "IT",
 		"flagsets": [
 			"Italian Regional Flags"
 		]
@@ -4178,7 +4178,7 @@
 	},
 	"ZA-MP": {
 		"name": "Mpumalanga",
-		"parent": "South Africa",
+		"parent": "ZA",
 		"flagsets": [
 			"South African Provincial Flags"
 		]
