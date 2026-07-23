@@ -28,7 +28,10 @@ Files:
  static/img/flag/ca-*.svg
  static/img/flag/ch-*.svg
  static/img/flag/de-*.svg
+ static/img/flag/es-*.svg
  static/img/flag/fr-*.svg
+ static/img/flag/id-*.svg
+ static/img/flag/it-*.svg
  static/img/flag/jp-*.svg
  static/img/flag/my-*.svg
  static/img/flag/us-*.svg
@@ -47,6 +50,36 @@ Files:
 Copyright: Superbenjamin
 License: CC-BY-SA-3.0
 Note: Taken from Wikimedia Commons. Possibly adapted from original work by Diades (https://en.wikipedia.org/wiki/File:Flag_of_Provence-Alpes-C%C3%B4te_d%27Azur.svg).
+
+Files:
+ static/img/flag/it-34.svg
+Copyright: F l a n k e r
+License: CC-BY-SA-3.0
+Note: Taken from Wikimedia Commons (https://en.wikipedia.org/wiki/File:Flag_of_Veneto.svg).
+
+Files:
+ static/img/flag/it-45.svg
+Copyright: Gambo7
+License: CC-BY-SA-3.0
+Note: Taken from Wikimedia Commons (https://en.wikipedia.org/wiki/File:Flag_of_Emilia-Romagna_(de_facto).svg).
+
+Files:
+ static/img/flag/it-52.svg
+Copyright: Angelo Romano
+License: CC-BY-SA-3.0
+Note: Taken from Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Flag_of_Tuscany.svg).
+
+Files:
+ static/img/flag/it-75.svg
+Copyright: ANGELUS
+License: CC-BY-SA-3.0
+Note: Taken from Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Flag_of_Apulia.svg).
+
+Files:
+ static/img/flag/it-88.svg
+Copyright: Xander89
+License: CC-BY-SA-3.0
+Note: Taken from Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Flag_of_Sardinia.svg).
 
 Files:
  static/img/flag/my-13.svg
