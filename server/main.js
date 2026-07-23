@@ -58,31 +58,28 @@ async function initDatabase() {
 	const data = JSON.parse(fs.readFileSync("./flags.json"));
 
 	for (let code in data) {
-		if (await Flag.countDocuments({key: code}) === 0) {
-			// A new flag exists in the JSON that doesn't exist in the database; add it
+		// Update all documents on launch no matter what in case names, flagsets, etc. have changed
+		try {
+			if (data[code].disabled) continue;
 
-			try {
-				if (data[code].disabled) continue;
-
-				let longName = data[code].name;
-				if (data[code].parent) {
-					longName += ` (${data[data[code].parent].name})`;
-				}
-
-				const params = {
-					name: data[code].name,
-					longName: longName,
-					image: env.flagDirectory + code.toLowerCase() + ".svg",
-					key: code,
-					parent: data[code].parent,
-					flagsets: data[code].flagsets
-				}
-
-				await Flag.create(params);
-			} catch (err) {
-				console.error(`${err.message} (Code: ${code})`);
-				console.trace();
+			let longName = data[code].name;
+			if (data[code].parent) {
+				longName += ` (${data[data[code].parent].name})`;
 			}
+
+			const params = {
+				name: data[code].name,
+				longName: longName,
+				image: env.flagDirectory + code.toLowerCase() + ".svg",
+				key: code,
+				parent: data[code].parent,
+				flagsets: data[code].flagsets
+			}
+
+			await Flag.findOneAndUpdate({key: code}, params, {upsert: true});
+		} catch (err) {
+			console.error(`${err.message} (Code: ${code})`);
+			console.trace();
 		}
 	}
 }
