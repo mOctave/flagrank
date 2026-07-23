@@ -41,7 +41,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of North America"
+			"Flags of North America",
+			"Union Jack Canton"
 		]
 	},
 	"AL": {
@@ -102,7 +103,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Oceania"
+			"Flags of Oceania",
+			"Union Jack Canton"
 		]
 	},
 	"AU-ACT": {
@@ -116,7 +118,8 @@
 		"name": "New South Wales",
 		"parent": "AU",
 		"flagsets": [
-			"Australian State Flags"
+			"Australian State Flags",
+			"Union Jack Canton"
 		]
 	},
 	"AU-NT": {
@@ -130,35 +133,40 @@
 		"name": "Queensland",
 		"parent": "AU",
 		"flagsets": [
-			"Australian State Flags"
+			"Australian State Flags",
+			"Union Jack Canton"
 		]
 	},
 	"AU-SA": {
 		"name": "South Australia",
 		"parent": "AU",
 		"flagsets": [
-			"Australian State Flags"
+			"Australian State Flags",
+			"Union Jack Canton"
 		]
 	},
 	"AU-TAS": {
 		"name": "Tasmania",
 		"parent": "AU",
 		"flagsets": [
-			"Australian State Flags"
+			"Australian State Flags",
+			"Union Jack Canton"
 		]
 	},
 	"AU-VIC": {
 		"name": "Victoria",
 		"parent": "AU",
 		"flagsets": [
-			"Australian State Flags"
+			"Australian State Flags",
+			"Union Jack Canton"
 		]
 	},
 	"AU-WA": {
 		"name": "Western Australia",
 		"parent": "AU",
 		"flagsets": [
-			"Australian State Flags"
+			"Australian State Flags",
+			"Union Jack Canton"
 		]
 	},
 	"AW": {
@@ -284,7 +292,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of North America"
+			"Flags of North America",
+			"Union Jack Canton"
 		]
 	},
 	"BN": {
@@ -594,7 +603,8 @@
 		"name": "Manitoba",
 		"parent": "CA",
 		"flagsets": [
-			"Canadian Provincial Flags"
+			"Canadian Provincial Flags",
+			"Union Jack Canton"
 		]
 	},
 	"CA-NB": {
@@ -636,7 +646,8 @@
 		"name": "Ontario",
 		"parent": "CA",
 		"flagsets": [
-			"Canadian Provincial Flags"
+			"Canadian Provincial Flags",
+			"Union Jack Canton"
 		]
 	},
 	"CA-PE": {
@@ -1254,7 +1265,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Oceania"
+			"Flags of Oceania",
+			"Union Jack Canton"
 		]
 	},
 	"FK": {
@@ -1263,7 +1275,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of South America"
+			"Flags of South America",
+			"Union Jack Canton"
 		]
 	},
 	"FM": {
@@ -1548,7 +1561,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of South America"
+			"Flags of South America",
+			"Union Jack Canton"
 		]
 	},
 	"GT": {
@@ -1601,7 +1615,8 @@
 		"parent": "AU",
 		"flagsets": [
 			"World Flags",
-			"Flags of Overseas Territories"
+			"Flags of Overseas Territories",
+			"Union Jack Canton"
 		],
 		"disabled": "This overseas territory does not have a unique flag."
 	},
@@ -1958,7 +1973,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Union Jack Canton"
 		]
 	},
 	"IQ": {
@@ -2589,7 +2605,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of North America"
+			"Flags of North America",
+			"Union Jack Canton"
 		]
 	},
 	"KZ": {
@@ -2842,7 +2859,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of North America"
+			"Flags of North America",
+			"Union Jack Canton"
 		]
 	},
 	"MT": {
@@ -3125,7 +3143,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Oceania"
+			"Flags of Oceania",
+			"Union Jack Canton"
 		]
 	},
 	"OM": {
@@ -3215,7 +3234,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of Oceania"
+			"Flags of Oceania",
+			"Union Jack Canton"
 		]
 	},
 	"PR": {
@@ -3376,7 +3396,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Union Jack Canton"
 		]
 	},
 	"SI": {
@@ -3512,7 +3533,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of North America"
+			"Flags of North America",
+			"Union Jack Canton"
 		]
 	},
 	"TD": {
@@ -3629,7 +3651,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Oceania"
+			"Flags of Oceania",
+			"Union Jack Canton"
 		]
 	},
 	"TW": {
@@ -3767,7 +3790,8 @@
 		"name": "Hawaii",
 		"parent": "US",
 		"flagsets": [
-			"US State Flags"
+			"US State Flags",
+			"Union Jack Canton"
 		]
 	},
 	"US-IA": {
@@ -4093,7 +4117,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of North America"
+			"Flags of North America",
+			"Union Jack Canton"
 		]
 	},
 	"VI": {
