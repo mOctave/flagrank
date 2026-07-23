@@ -14,7 +14,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Colours: Pan-Arab"
 		]
 	},
 	"AF": {
@@ -42,7 +43,7 @@
 			"World Flags",
 			"Flags of Overseas Territories",
 			"Flags of North America",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"AL": {
@@ -60,7 +61,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Pattern: Tricolour"
 		]
 	},
 	"AO": {
@@ -79,6 +81,16 @@
 			"World Flags"
 		]
 	},
+	"AR": {
+		"name": "Argentina",
+		"parent": "",
+		"flagsets": [
+			"World Flags",
+			"UN Member Flags",
+			"Flags of South America",
+			"Pattern: Tribar"
+		]
+	},
 	"AS": {
 		"name": "American Samoa",
 		"parent": "US",
@@ -94,7 +106,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tribar"
 		]
 	},
 	"AU": {
@@ -104,7 +117,7 @@
 			"World Flags",
 			"UN Member Flags",
 			"Flags of Oceania",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"AU-ACT": {
@@ -119,7 +132,7 @@
 		"parent": "AU",
 		"flagsets": [
 			"Australian State Flags",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"AU-NT": {
@@ -134,7 +147,7 @@
 		"parent": "AU",
 		"flagsets": [
 			"Australian State Flags",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"AU-SA": {
@@ -142,7 +155,7 @@
 		"parent": "AU",
 		"flagsets": [
 			"Australian State Flags",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"AU-TAS": {
@@ -150,7 +163,7 @@
 		"parent": "AU",
 		"flagsets": [
 			"Australian State Flags",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"AU-VIC": {
@@ -158,7 +171,7 @@
 		"parent": "AU",
 		"flagsets": [
 			"Australian State Flags",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"AU-WA": {
@@ -166,7 +179,7 @@
 		"parent": "AU",
 		"flagsets": [
 			"Australian State Flags",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"AW": {
@@ -185,7 +198,7 @@
 			"World Flags",
 			"Flags of Overseas Territories",
 			"Flags of Europe",
-			"Nordic Cross"
+			"Pattern: Nordic Cross"
 		]
 	},
 	"AZ": {
@@ -194,7 +207,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Pattern: Tricolour"
 		]
 	},
 	"BA": {
@@ -212,7 +226,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of North America"
+			"Flags of North America",
+			"Pattern: Tribar"
 		]
 	},
 	"BD": {
@@ -230,7 +245,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"BF": {
@@ -248,7 +264,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"BH": {
@@ -294,7 +311,7 @@
 			"World Flags",
 			"Flags of Overseas Territories",
 			"Flags of North America",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"BN": {
@@ -312,7 +329,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of South America"
+			"Flags of South America",
+			"Pattern: Tricolour"
 		]
 	},
 	"BQ": {
@@ -386,7 +404,8 @@
 		"name": "Espírito Santo",
 		"parent": "BR",
 		"flagsets": [
-			"Brazilian State Flags"
+			"Brazilian State Flags",
+			"Pattern: Tricolour"
 		]
 	},
 	"BR-GO": {
@@ -498,7 +517,8 @@
 		"name": "Santa Catarina",
 		"parent": "BR",
 		"flagsets": [
-			"Brazilian State Flags"
+			"Brazilian State Flags",
+			"Pattern: Tribar"
 		]
 	},
 	"BR-SE": {
@@ -528,7 +548,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of North America"
+			"Flags of North America",
+			"Pattern: Tribar"
 		]
 	},
 	"BT": {
@@ -547,7 +568,7 @@
 			"World Flags",
 			"Flags of Overseas Territories",
 			"Flags of South America",
-			"Nordic Cross"
+			"Pattern: Nordic Cross"
 		],
 		"disabled": "This overseas territory does not have a unique flag."
 	},
@@ -584,7 +605,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of North America"
+			"Flags of North America",
+			"Pattern: Tribar"
 		]
 	},
 	"CA-AB": {
@@ -606,7 +628,7 @@
 		"parent": "CA",
 		"flagsets": [
 			"Canadian Provincial Flags",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"CA-NB": {
@@ -634,7 +656,8 @@
 		"name": "Northwest Territories",
 		"parent": "CA",
 		"flagsets": [
-			"Canadian Provincial Flags"
+			"Canadian Provincial Flags",
+			"Pattern: Tribar"
 		]
 	},
 	"CA-NU": {
@@ -649,7 +672,7 @@
 		"parent": "CA",
 		"flagsets": [
 			"Canadian Provincial Flags",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"CA-PE": {
@@ -677,7 +700,8 @@
 		"name": "Yukon",
 		"parent": "CA",
 		"flagsets": [
-			"Canadian Provincial Flags"
+			"Canadian Provincial Flags",
+			"Pattern: Tribar"
 		]
 	},
 	"CC": {
@@ -813,7 +837,8 @@
 		"name": "Neuchâtel",
 		"parent": "CH",
 		"flagsets": [
-			"Swiss Canton Flags"
+			"Swiss Canton Flags",
+			"Pattern: Tricolour"
 		]
 	},
 	"CH-NW": {
@@ -897,7 +922,8 @@
 		"name": "Zug",
 		"parent": "CH",
 		"flagsets": [
-			"Swiss Canton Flags"
+			"Swiss Canton Flags",
+			"Pattern: Tribar"
 		]
 	},
 	"CH-ZH": {
@@ -913,7 +939,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tricolour"
 		]
 	},
 	"CK": {
@@ -922,7 +949,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of Oceania"
+			"Flags of Oceania",
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"CL": {
@@ -940,7 +968,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tricolour"
 		]
 	},
 	"CN": {
@@ -958,7 +987,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of South America"
+			"Flags of South America",
+			"Pattern: Tricolour"
 		]
 	},
 	"CR": {
@@ -1030,7 +1060,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"DE-BB": {
@@ -1100,28 +1131,32 @@
 		"name": "North Rhine-Westphalia",
 		"parent": "DE",
 		"flagsets": [
-			"German State Flags"
+			"German State Flags",
+			"Pattern: Tricolour"
 		]
 	},
 	"DE-RP": {
 		"name": "Rhineland-Palatinate",
 		"parent": "DE",
 		"flagsets": [
-			"German State Flags"
+			"German State Flags",
+			"Pattern: Tricolour"
 		]
 	},
 	"DE-SH": {
 		"name": "Schleswig-Holstein",
 		"parent": "DE",
 		"flagsets": [
-			"German State Flags"
+			"German State Flags",
+			"Pattern: Tricolour"
 		]
 	},
 	"DE-SL": {
 		"name": "Saarland",
 		"parent": "DE",
 		"flagsets": [
-			"German State Flags"
+			"German State Flags",
+			"Pattern: Tricolour"
 		]
 	},
 	"DE-SN": {
@@ -1161,7 +1196,7 @@
 			"World Flags",
 			"UN Member Flags",
 			"Flags of Europe",
-			"Nordic Cross"
+			"Pattern: Nordic Cross"
 		]
 	},
 	"DM": {
@@ -1197,7 +1232,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of South America"
+			"Flags of South America",
+			"Pattern: Tricolour"
 		]
 	},
 	"EE": {
@@ -1206,7 +1242,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"EG": {
@@ -1215,7 +1252,9 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Colours: Pan-Arab",
+			"Pattern: Tricolour"
 		]
 	},
 	"EH": {
@@ -1223,7 +1262,9 @@
 		"parent": "",
 		"flagsets": [
 			"World Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Colours: Pan-Arab",
+			"Pattern: Tricolour"
 		]
 	},
 	"ER": {
@@ -1241,7 +1282,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tribar"
 		]
 	},
 	"ET": {
@@ -1250,7 +1292,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tricolour"
 		]
 	},
 	"FI": {
@@ -1260,7 +1303,7 @@
 			"World Flags",
 			"UN Member Flags",
 			"Flags of Europe",
-			"Nordic Cross"
+			"Pattern: Nordic Cross"
 		]
 	},
 	"FJ": {
@@ -1270,7 +1313,7 @@
 			"World Flags",
 			"UN Member Flags",
 			"Flags of Oceania",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"FK": {
@@ -1280,7 +1323,7 @@
 			"World Flags",
 			"Flags of Overseas Territories",
 			"Flags of South America",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"FM": {
@@ -1299,7 +1342,7 @@
 			"World Flags",
 			"Flags of Overseas Territories",
 			"Flags of Europe",
-			"Nordic Cross"
+			"Pattern: Nordic Cross"
 		]
 	},
 	"FR": {
@@ -1308,7 +1351,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"FR-20R": {
@@ -1408,7 +1452,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tricolour"
 		]
 	},
 	"GB": {
@@ -1494,7 +1539,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tricolour"
 		]
 	},
 	"GI": {
@@ -1530,7 +1576,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tricolour"
 		]
 	},
 	"GP": {
@@ -1567,7 +1614,7 @@
 			"World Flags",
 			"Flags of Overseas Territories",
 			"Flags of South America",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"GT": {
@@ -1576,7 +1623,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of North America"
+			"Flags of North America",
+			"Pattern: Tribar"
 		]
 	},
 	"GU": {
@@ -1621,7 +1669,7 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		],
 		"disabled": "This overseas territory does not have a unique flag."
 	},
@@ -1631,7 +1679,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of North America"
+			"Flags of North America",
+			"Pattern: Tribar"
 		]
 	},
 	"HR": {
@@ -1640,7 +1689,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"HT": {
@@ -1658,7 +1708,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"ID": {
@@ -1942,7 +1993,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"IL": {
@@ -1969,7 +2021,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Pattern: Tricolour"
 		]
 	},
 	"IO": {
@@ -1979,7 +2032,7 @@
 			"World Flags",
 			"Flags of Overseas Territories",
 			"Flags of Africa",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"IQ": {
@@ -1988,7 +2041,9 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Colours: Pan-Arab",
+			"Pattern: Tricolour"
 		]
 	},
 	"IR": {
@@ -1997,7 +2052,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Pattern: Tricolour"
 		]
 	},
 	"IS": {
@@ -2007,7 +2063,7 @@
 			"World Flags",
 			"UN Member Flags",
 			"Flags of Europe",
-			"Nordic Cross"
+			"Pattern: Nordic Cross"
 		]
 	},
 	"IT": {
@@ -2016,7 +2072,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"IT-21": {
@@ -2183,7 +2240,9 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Colours: Pan-Arab",
+			"Pattern: Tricolour"
 		]
 	},
 	"JP": {
@@ -2602,7 +2661,9 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Colours: Pan-Arab",
+			"Pattern: Tricolour"
 		]
 	},
 	"KY": {
@@ -2612,7 +2673,7 @@
 			"World Flags",
 			"Flags of Overseas Territories",
 			"Flags of North America",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"KZ": {
@@ -2639,7 +2700,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Pattern: Tribar"
 		]
 	},
 	"LC": {
@@ -2684,7 +2746,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tricolour"
 		]
 	},
 	"LT": {
@@ -2693,7 +2756,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"LU": {
@@ -2702,7 +2766,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"LV": {
@@ -2711,7 +2776,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tribar"
 		]
 	},
 	"LY": {
@@ -2720,7 +2786,9 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Colours: Pan-Arab",
+			"Pattern: Tricolour"
 		]
 	},
 	"MA": {
@@ -2747,7 +2815,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"ME": {
@@ -2765,7 +2834,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of North America"
+			"Flags of North America",
+			"Pattern: Tricolour"
 		],
 		"disabled": "This overseas territory does not have a unique flag."
 	},
@@ -2802,7 +2872,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tricolour"
 		]
 	},
 	"MM": {
@@ -2811,7 +2882,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Pattern: Tricolour"
 		]
 	},
 	"MN": {
@@ -2820,7 +2892,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Pattern: Tribar"
 		]
 	},
 	"MO": {
@@ -2856,7 +2929,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tribar"
 		]
 	},
 	"MS": {
@@ -2866,7 +2940,7 @@
 			"World Flags",
 			"Flags of Overseas Territories",
 			"Flags of North America",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"MT": {
@@ -2902,7 +2976,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tricolour"
 		]
 	},
 	"MX": {
@@ -2911,7 +2986,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of North America"
+			"Flags of North America",
+			"Pattern: Tricolour"
 		]
 	},
 	"MY": {
@@ -2976,7 +3052,8 @@
 		"name": "Perak",
 		"parent": "MY",
 		"flagsets": [
-			"Malaysian State Flags"
+			"Malaysian State Flags",
+			"Pattern: Tricolour"
 		]
 	},
 	"MY-09": {
@@ -3004,7 +3081,8 @@
 		"name": "Sabah",
 		"parent": "MY",
 		"flagsets": [
-			"Malaysian State Flags"
+			"Malaysian State Flags",
+			"Pattern: Tricolour"
 		]
 	},
 	"MY-13": {
@@ -3025,14 +3103,16 @@
 		"name": "Labuan",
 		"parent": "MY",
 		"flagsets": [
-			"Malaysian State Flags"
+			"Malaysian State Flags",
+			"Pattern: Tricolour"
 		]
 	},
 	"MY-16": {
 		"name": "Putrajaya",
 		"parent": "MY",
 		"flagsets": [
-			"Malaysian State Flags"
+			"Malaysian State Flags",
+			"Pattern: Tribar"
 		]
 	},
 	"MZ": {
@@ -3059,7 +3139,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of Oceania"
+			"Flags of Oceania",
+			"Pattern: Tricolour"
 		]
 	},
 	"NE": {
@@ -3068,7 +3149,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tricolour"
 		]
 	},
 	"NF": {
@@ -3077,7 +3159,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of Oceania"
+			"Flags of Oceania",
+			"Pattern: Tribar"
 		]
 	},
 	"NG": {
@@ -3086,7 +3169,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tribar"
 		]
 	},
 	"NI": {
@@ -3095,7 +3179,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of North America"
+			"Flags of North America",
+			"Pattern: Tribar"
 		]
 	},
 	"NL": {
@@ -3104,7 +3189,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"NO": {
@@ -3114,7 +3200,7 @@
 			"World Flags",
 			"UN Member Flags",
 			"Flags of Europe",
-			"Nordic Cross"
+			"Pattern: Nordic Cross"
 		]
 	},
 	"NP": {
@@ -3123,7 +3209,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Nonrectangular Flags"
 		]
 	},
 	"NR": {
@@ -3132,7 +3219,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Oceania"
+			"Flags of Oceania",
+			"Pattern: Tribar"
 		]
 	},
 	"NU": {
@@ -3141,7 +3229,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of Oceania"
+			"Flags of Oceania",
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"NZ": {
@@ -3151,7 +3240,7 @@
 			"World Flags",
 			"UN Member Flags",
 			"Flags of Oceania",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"OM": {
@@ -3178,7 +3267,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of South America"
+			"Flags of South America",
+			"Pattern: Tribar"
 		]
 	},
 	"PF": {
@@ -3187,7 +3277,8 @@
 		"flagsets": [
 			"World Flags",
 			"Flags of Overseas Territories",
-			"Flags of Oceania"
+			"Flags of Oceania",
+			"Pattern: Tribar"
 		]
 	},
 	"PG": {
@@ -3242,7 +3333,7 @@
 			"World Flags",
 			"Flags of Overseas Territories",
 			"Flags of Oceania",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"PR": {
@@ -3259,7 +3350,9 @@
 		"parent": "",
 		"flagsets": [
 			"World Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Colours: Pan-Arab",
+			"Pattern: Tricolour"
 		]
 	},
 	"PT": {
@@ -3286,7 +3379,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of South America"
+			"Flags of South America",
+			"Pattern: Tricolour"
 		]
 	},
 	"QA": {
@@ -3313,7 +3407,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"RS": {
@@ -3322,7 +3417,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"RU": {
@@ -3331,7 +3427,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"RW": {
@@ -3340,7 +3437,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tricolour"
 		]
 	},
 	"SA": {
@@ -3376,7 +3474,9 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Africa",
+			"Colours: Pan-Arab",
+			"Pattern: Tricolour"
 		]
 	},
 	"SE": {
@@ -3386,7 +3486,7 @@
 			"World Flags",
 			"UN Member Flags",
 			"Flags of Europe",
-			"Nordic Cross"
+			"Pattern: Nordic Cross"
 		]
 	},
 	"SG": {
@@ -3405,7 +3505,7 @@
 			"World Flags",
 			"Flags of Overseas Territories",
 			"Flags of Africa",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"SI": {
@@ -3414,7 +3514,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"SJ": {
@@ -3424,7 +3525,7 @@
 			"World Flags",
 			"Flags of Overseas Territories",
 			"Flags of Europe",
-			"Nordic Cross"
+			"Pattern: Nordic Cross"
 		],
 		"disabled": "This overseas territory does not have a unique flag."
 	},
@@ -3434,7 +3535,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Europe"
+			"Flags of Europe",
+			"Pattern: Tricolour"
 		]
 	},
 	"SL": {
@@ -3443,7 +3545,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tricolour"
 		]
 	},
 	"SM": {
@@ -3461,7 +3564,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tricolour"
 		]
 	},
 	"SO": {
@@ -3497,7 +3601,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tribar"
 		]
 	},
 	"SV": {
@@ -3506,7 +3611,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of North America"
+			"Flags of North America",
+			"Pattern: Tribar"
 		]
 	},
 	"SX": {
@@ -3524,7 +3630,9 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Colours: Pan-Arab",
+			"Pattern: Tricolour"
 		]
 	},
 	"SZ": {
@@ -3543,7 +3651,7 @@
 			"World Flags",
 			"Flags of Overseas Territories",
 			"Flags of North America",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"TD": {
@@ -3552,7 +3660,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Africa"
+			"Flags of Africa",
+			"Pattern: Tricolour"
 		]
 	},
 	"TF": {
@@ -3588,7 +3697,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Pattern: Tricolour"
 		]
 	},
 	"TK": {
@@ -3661,7 +3771,7 @@
 			"World Flags",
 			"UN Member Flags",
 			"Flags of Oceania",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"TW": {
@@ -3792,7 +3902,8 @@
 		"name": "Georgia",
 		"parent": "US",
 		"flagsets": [
-			"US State Flags"
+			"US State Flags",
+			"Pattern: Tribar"
 		]
 	},
 	"US-HI": {
@@ -3800,7 +3911,7 @@
 		"parent": "US",
 		"flagsets": [
 			"US State Flags",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"US-IA": {
@@ -3891,7 +4002,8 @@
 		"name": "Missouri",
 		"parent": "US",
 		"flagsets": [
-			"US State Flags"
+			"US State Flags",
+			"Pattern: Tricolour"
 		]
 	},
 	"US-MS": {
@@ -3968,7 +4080,8 @@
 		"name": "Ohio",
 		"parent": "US",
 		"flagsets": [
-			"US State Flags"
+			"US State Flags",
+			"Nonrectangular Flags"
 		]
 	},
 	"US-OK": {
@@ -4108,7 +4221,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of North America"
+			"Flags of North America",
+			"Pattern: Tricolour"
 		]
 	},
 	"VE": {
@@ -4117,7 +4231,8 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of South America"
+			"Flags of South America",
+			"Pattern: Tricolour"
 		]
 	},
 	"VG": {
@@ -4127,7 +4242,7 @@
 			"World Flags",
 			"Flags of Overseas Territories",
 			"Flags of North America",
-			"Union Jack Canton"
+			"Pattern: Union Jack Canton"
 		]
 	},
 	"VI": {
@@ -4189,7 +4304,9 @@
 		"flagsets": [
 			"World Flags",
 			"UN Member Flags",
-			"Flags of Asia"
+			"Flags of Asia",
+			"Colours: Pan-Arab",
+			"Pattern: Tricolour"
 		]
 	},
 	"YT": {
