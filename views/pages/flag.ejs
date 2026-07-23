@@ -26,7 +26,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 		<%- include("../partials/navbar"); %>
 		<div class="titlecard">
 			<div class="titlecard-icon">
-				<img src="img/flag/<%- flag.key.toLowerCase() %>.svg" alt="Image of the flag of <%- flag.name %>"/>
+				<img src="/img/flag/<%- flag.key.toLowerCase() %>.svg" alt="Image of the flag of <%- flag.name %>"/>
 			</div>
 			<div class="titlecard-content">
 				<h1><%- flag.longName %></h1>
@@ -34,8 +34,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 				<p>Wins: <%- flag.wins %></p>
 				<p>Losses: <%- flag.losses %></p>
 				<p>Draws: <%- flag.draws %></p>
+				<div class="flagset-links">
+					<p>This flag is a part of the following sets:</p>
+					<% for (let set of flag.flagsets) { %>
+						<a class="flagset-link" href="/set/<%- set.replaceAll(" ", "_") %>"><%- set %></a>
+					<% } %>
+				</div>
 			</div>
 		</div>
-		<script src="navbar.js"></script>
+		<script src="/navbar.js"></script>
 	</body>
 </html>
