@@ -3918,7 +3918,8 @@
 		"name": "Iowa",
 		"parent": "US",
 		"flagsets": [
-			"US State Flags"
+			"US State Flags",
+			"Pattern: Tricolour"
 		]
 	},
 	"US-ID": {
