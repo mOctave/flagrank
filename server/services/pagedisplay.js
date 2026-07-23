@@ -66,10 +66,28 @@ async function displayChoice(req, res) {
 	res.render("pages/match", getMatch(matchId));
 }
 
+async function displayFlagsetPage(req, res) {
+	const flagset = req.params.name.replaceAll("_", " ");
+
+	const flags = await Flag.find({flagsets: flagset}).sort({rating: "descending"});
+
+	if (!flags) {
+		res.status(404);
+		displayPage("errors/404", req, res);
+		return;
+	}
+
+	const DATA = {
+		flagset: flagset,
+		flags: flags
+	};
+
+	res.render("pages/flagset", DATA);
+}
 
 async function getTopFlags() {
 	// I may want to restore the randomness here in the future, but for now this works
 	return await Flag.find().sort({"rating": "descending"}).limit(50);
 }
 
-module.exports = { displayPage, displayFlagPage, displayLeaderboard, displayChoice };
+module.exports = { displayPage, displayFlagPage, displayLeaderboard, displayChoice, displayFlagsetPage };

@@ -18,7 +18,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 const express = require("express");
 const router = express.Router();
-const { displayPage, displayFlagPage, displayLeaderboard, displayChoice } = require("./services/pagedisplay");
+const { displayPage, displayFlagPage, displayLeaderboard, displayChoice, displayFlagsetPage } = require("./services/pagedisplay");
 const { respondToChoice } = require("./services/flagmanager");
 
 router.get("/", (req, res) => {
@@ -49,6 +49,10 @@ router.get("/match", (req, res) => {
 
 router.get("/leaders", (req, res) => {
 	displayLeaderboard(req, res);
+});
+
+router.get("/set/:name", (req, res) => {
+	displayFlagsetPage(req, res);
 });
 
 router.post("/response", (req, res) => {
