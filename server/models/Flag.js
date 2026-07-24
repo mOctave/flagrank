@@ -65,11 +65,11 @@ const FlagSchema = new mongoose.Schema({
 		required: true,
 		default: 1500
 	},
-	historicalRatings: {
+	historicalRatings: [{
 		// TODO: Add support for rating history
 		date: {type: Date, required: true, default: new Date()},
 		rating: {type: Number, required: true, default: 1500}
-	}
+}]
 });
 
 FlagSchema.statics.random = async function() {

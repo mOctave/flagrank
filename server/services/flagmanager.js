@@ -42,6 +42,9 @@ function formatRating(flag) {
 }
 
 async function adjustForVictory(victor, loser) {
+	victor.historicalRatings.push({date: new Date(), rating: victor.rating});
+	loser.historicalRatings.push({date: new Date(), rating: loser.rating});
+
 	let victorDifference = 1 - qScore(victor) / (qScore(victor) + qScore(loser));
 	let victorChange = victorDifference * ratingDeviation(victor) / Math.max(Math.min(ratingDeviation(loser) / 50, 2), 1);
 
@@ -59,6 +62,9 @@ async function adjustForVictory(victor, loser) {
 }
 
 async function adjustForDraw(a, b) {
+	a.historicalRatings.push({date: new Date(), rating: a.rating});
+	b.historicalRatings.push({date: new Date(), rating: b.rating});
+
 	let aDifference = 0.5 - qScore(a) / (qScore(a) + qScore(b));
 	let aChange = aDifference * ratingDeviation(a) / Math.max(Math.min(ratingDeviation(b) / 50, 2), 1);
 
@@ -85,19 +91,23 @@ async function respondToChoice(req, res) {
 		return;
 	}
 
-	const flagA = await Flag.findOne(match.a);
-	const flagB = await Flag.findOne(match.b);
+	console.log(match);
+
+	const flagA = await Flag.findById(match.a._id);
+	const flagB = await Flag.findById(match.b._id);
+	console.log(flagA);
+	console.log(flagB);
 
 	let outcome = req.get("Outcome");
 	switch (outcome) {
 		case "A":
-			adjustForVictory(flagA, flagB)
+			adjustForVictory(flagA, flagB);
 			break;
 		case "B":
-			adjustForVictory(flagB, flagA)
+			adjustForVictory(flagB, flagA);
 			break;
 		case "D":
-			adjustForDraw(flagA, flagB)
+			adjustForDraw(flagA, flagB);
 			break;
 		default:
 			res.status(400);

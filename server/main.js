@@ -68,13 +68,18 @@ async function initDatabase() {
 				longName += ` (${data[data[code].parent].name})`;
 			}
 
+			// Migrates historical ratings over to the proper system
+			let match = await Flag.findOne({key: code});
+			let historicalRatings = (match && match.historicalRatings.constructor === Array) ? match.historicalRatings : undefined;
+
 			const params = {
 				name: data[code].name,
 				longName: longName,
 				image: env.flagDirectory + code.toLowerCase() + ".svg",
 				key: code,
 				parent: data[code].parent,
-				flagsets: data[code].flagsets
+				flagsets: data[code].flagsets,
+				historicalRatings: historicalRatings
 			}
 
 			await Flag.findOneAndUpdate({key: code}, params, {upsert: true});
