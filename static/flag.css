@@ -63,6 +63,27 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 	background-color: #15c;
 }
 
+.rating-graph {
+	width: 100%;
+	background-color: #999;
+	border-radius: 10px;
+}
+
+.rating-gridline {
+	stroke: #555;
+	stroke-width: 1px;
+}
+
+.rating-label {
+	fill: #555;
+	font: italic 10px sans-serif;
+}
+
+.rating-graph-line {
+	stroke: #111;
+	stroke-width: 2px;
+}
+
 /*Mobile Support */
 @media screen and (max-width: 599px) {
 	.titlecard {
