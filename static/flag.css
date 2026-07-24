@@ -63,6 +63,33 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 	background-color: #15c;
 }
 
+.rating-options {
+	width: 100%;
+	padding-bottom: 5px;
+	display: flex;
+}
+
+.rating-options * {
+	flex-grow: 1;
+	margin: 5px;
+}
+
+.rating-button {
+	color: #eee;
+	background-color: #555;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.rating-button:hover, .rating-button.active:hover {
+	background-color: #15c;
+}
+
+.rating-button.active {
+	background-color: #37e;
+}
+
 .rating-graph {
 	width: 100%;
 	background-color: #999;
@@ -75,7 +102,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 }
 
 .rating-label {
-	fill: #555;
+	fill: #444;
 	font: italic 10px sans-serif;
 }
 

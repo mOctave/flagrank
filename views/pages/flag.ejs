@@ -43,6 +43,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 			</div>
 		</div>
 			<h2>Rating History</h2>
+			<div class="rating-options">
+				<button class="rating-button" onclick="changeMode(event, 'day')">24 Hours</button>
+				<button class="rating-button" onclick="changeMode(event, 'week')">7 Days</button>
+				<button class="rating-button" onclick="changeMode(event, 'month')">30 Days</button>
+				<button class="rating-button" onclick="changeMode(event, 'quarter')">90 Days</button>
+				<button class="rating-button" onclick="changeMode(event, 'year')">1 Year</button>
+				<button class="rating-button active" onclick="changeMode(event, 'all')">All Time</button>
+			</div>
 			<svg class="rating-graph" xmlns="http://www.w3.org/2000/svg">
 				<!--This SVG, including its dimensions and viewbox, is autofilled.-->
 			</svg>

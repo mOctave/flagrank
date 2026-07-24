@@ -17,14 +17,28 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
 const ratingGraphs = document.getElementsByClassName("rating-graph");
+const ratingButtons = document.getElementsByClassName("rating-button");
+
+let graphMode = "all";
 
 const height = 200;
 
-window.onload = updateGraphs;
+window.onload = () => {updateGraphs("all")};
 
-window.addEventListener("resize", updateGraphs);
+window.addEventListener("resize", () => {updateGraphs(graphMode)});
 
-function updateGraphs() {
+function changeMode(event, mode) {
+	for (let button of ratingButtons) {
+		button.classList.remove("active");
+	}
+
+	event.currentTarget.classList.add("active");
+
+	graphMode = mode;
+	updateGraphs(graphMode);
+}
+
+function updateGraphs(mode) {
 	console.log("Updating graphs");
 	for (let ratingGraph of ratingGraphs) {
 		const width = ratingGraph.getBoundingClientRect().width;
@@ -46,9 +60,60 @@ function updateGraphs() {
 
 
 		let started = false;
-		let firstTime = Date.parse(flag.historicalRatings[0].date);
+		let firstTime;
 		let lastTime = new Date().getTime();
+		let round;
+		let timestampMode;
 
+		switch (mode) {
+			case "day":
+				firstTime = lastTime - 1000 * 60 * 60 * 24;
+				round = 1000 * 60 * 60 * 2;
+				timestampMode = {timeStyle: "short"};
+				break;
+			case "week":
+				firstTime = lastTime - 1000 * 60 * 60 * 24 * 7;
+				round = 1000 * 60 * 60 * 24;
+				timestampMode = {month: "short", day: "numeric"};
+				break;
+			case "month":
+				firstTime = lastTime - 1000 * 60 * 60 * 24 * 30;
+				round = 1000 * 60 * 60 * 24 * 3;
+				timestampMode = {month: "short", day: "numeric"};
+				break;
+			case "quarter":
+				firstTime = lastTime - 1000 * 60 * 60 * 24 * 90;
+				round = 1000 * 60 * 60 * 24 * 7;
+				timestampMode = {month: "short", day: "numeric"};
+				break;
+			case "year":
+				firstTime = lastTime - 1000 * 60 * 60 * 24 * 365;
+				round = 1000 * 60 * 60 * 24 * 30;
+				timestampMode = {month: "short", day: "numeric"};
+				break;
+			default:
+				firstTime = Date.parse(flag.historicalRatings[0].date);
+				round = 1000 * 60 * 60 * 24 * 30;
+				timestampMode = {month: "short", day: "numeric"};
+				break;
+		}
+		
+		let importantTimes = [];
+		let currentTime = new Date(Math.floor(lastTime / round) * round);
+		while (currentTime > firstTime) {
+			importantTimes.push(currentTime);
+			currentTime -= round;
+		}
+
+		for (let time of importantTimes) {
+			let x = (time - firstTime) / (lastTime - firstTime) * width;
+			let dateText = new Date(time).toLocaleString(undefined, timestampMode);
+
+			ratingGraph.innerHTML += `
+				<path class="rating-gridline" d="M${x} ${0} L${x} ${height}"/>
+				<text class="rating-label" x="${x+5}" y="${height - 5}">${dateText}</text>
+			`;
+		}
 
 		// Add flags
 		for (let i = flag.historicalRatings.length; i > 0; i--) {
