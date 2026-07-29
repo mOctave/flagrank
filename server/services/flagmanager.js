@@ -91,12 +91,8 @@ async function respondToChoice(req, res) {
 		return;
 	}
 
-	console.log(match);
-
 	const flagA = await Flag.findById(match.a._id);
 	const flagB = await Flag.findById(match.b._id);
-	console.log(flagA);
-	console.log(flagB);
 
 	let outcome = req.get("Outcome");
 	switch (outcome) {
