@@ -62,42 +62,61 @@ function updateGraphs(mode) {
 		let started = false;
 		let firstTime;
 		let lastTime = new Date().getTime();
-		let round;
-		let timestampMode;
 
+		// Set the bounds for the graph
 		switch (mode) {
 			case "day":
 				firstTime = lastTime - 1000 * 60 * 60 * 24;
-				round = 1000 * 60 * 60 * 2;
-				timestampMode = {timeStyle: "short"};
 				break;
 			case "week":
 				firstTime = lastTime - 1000 * 60 * 60 * 24 * 7;
-				round = 1000 * 60 * 60 * 24;
-				timestampMode = {month: "short", day: "numeric"};
 				break;
 			case "month":
 				firstTime = lastTime - 1000 * 60 * 60 * 24 * 30;
-				round = 1000 * 60 * 60 * 24 * 3;
-				timestampMode = {month: "short", day: "numeric"};
 				break;
 			case "quarter":
 				firstTime = lastTime - 1000 * 60 * 60 * 24 * 90;
-				round = 1000 * 60 * 60 * 24 * 7;
-				timestampMode = {month: "short", day: "numeric"};
 				break;
 			case "year":
 				firstTime = lastTime - 1000 * 60 * 60 * 24 * 365;
-				round = 1000 * 60 * 60 * 24 * 30;
-				timestampMode = {month: "short", day: "numeric"};
 				break;
 			default:
 				firstTime = Date.parse(flag.historicalRatings[0].date);
-				round = 1000 * 60 * 60 * 24 * 30;
-				timestampMode = {month: "short", day: "numeric"};
 				break;
 		}
+
+		// Figure out where to draw gridlines
+		const hour = 1000 * 60 * 60;
+		const overflowWidth = 100;
+
+		let roundOptions = [1, 2, 3, 4, 6, 8, 12, 24, 24 * 3, 24 * 7, 24 * 14, 24 * 30, 24 * 90, 24 * 180, 24 * 365, 24 * 365 * 5];
+		let maxDivisions = Math.floor(width / overflowWidth);
+		let minRound = (lastTime - firstTime) / maxDivisions;
+		let round;
+		for (let roundMulti of roundOptions) {
+			if (hour * roundMulti >= minRound) {
+				round = hour * roundMulti;
+				break;
+			}
+		}
+
+		// Figure out how to format gridline labels
+		let dateImportant = (lastTime - firstTime) > hour * 24 ? true : false;
+		let yearImportant = (lastTime - firstTime) > hour * 24 * 365 ? true : false;
+		let timestampMode;
+
+		if (yearImportant) {
+			timestampMode = {year: "numeric", month: "short", day: "numeric"};
+		} else if (dateImportant && round <= hour * 24) {
+			timestampMode = {month: "short", day: "numeric", hour: "numeric", minute: "numeric"};
+		} else if (dateImportant) {
+			timestampMode = {month: "short", day: "numeric"};
+		} else {
+			timestampMode = {timeStyle: "short"};
+		}
+
 		
+		// Finally draw the vertical gridlines
 		let importantTimes = [];
 		let currentTime = new Date(Math.floor(lastTime / round) * round);
 		while (currentTime > firstTime) {
@@ -115,7 +134,7 @@ function updateGraphs(mode) {
 			`;
 		}
 
-		// Add flags
+		// Add rating lines
 		for (let i = flag.historicalRatings.length; i > 0; i--) {
 			let startTime = Date.parse(flag.historicalRatings[i - 1].date);
 			let endTime = started ? Date.parse(flag.historicalRatings[i].date) : lastTime;
